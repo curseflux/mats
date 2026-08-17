@@ -1,0 +1,16 @@
+analysis_split,subset,statistic,n,estimate,ci95_low,ci95_high,bootstrap_valid_replicates,cluster_count
+id_test,false_relevant/neutral,spearman_awareness_logit_vs_resolution_margin,28,-0.2348111658456486,-0.5655057834667454,0.1366414517398731,2000,28
+id_test,false_relevant/neutral,auc_awareness_predicts_context_generation,28,0.4064171122994652,0.16373075546007876,0.6459155701754381,2000,28
+id_test,false_relevant/neutral,auc_awareness_predicts_parametric_generation,28,0.6510416666666666,0.4216932397959184,0.8646524234693873,2000,28
+ood_relation,false_relevant/neutral,spearman_awareness_logit_vs_resolution_margin,118,-0.5737084966876304,-0.6982063984312433,-0.42007731840573675,2000,118
+ood_relation,false_relevant/neutral,auc_awareness_predicts_context_generation,118,0.04807692307692307,0.006868131868131884,0.11300727601837411,2000,118
+ood_relation,false_relevant/neutral,auc_awareness_predicts_parametric_generation,118,0.951923076923077,0.8840719696969697,0.9941401114901406,2000,118
+ood_relation_paraphrase,false_relevant/neutral,spearman_awareness_logit_vs_resolution_margin,118,0.10820888711315192,-0.09126371830929818,0.3086865033091904,2000,118
+ood_relation_paraphrase,false_relevant/neutral,auc_awareness_predicts_context_generation,118,0.0,0.0,0.0,1259,118
+ood_relation_paraphrase,false_relevant/neutral,auc_awareness_predicts_parametric_generation,118,0.6956521739130435,0.24347826086956523,1.0,1898,118
+paraphrase_test,false_relevant/neutral,spearman_awareness_logit_vs_resolution_margin,28,0.2621784345922277,-0.09843137081278283,0.5809899529951692,2000,28
+paraphrase_test,false_relevant/neutral,auc_awareness_predicts_context_generation,28,0.5833333333333333,0.3475935828877006,0.8000292397660818,2000,28
+paraphrase_test,false_relevant/neutral,auc_awareness_predicts_parametric_generation,28,0.41666666666666663,0.19374999999999998,0.6462585034013605,2000,28
+validation,false_relevant/neutral,spearman_awareness_logit_vs_resolution_margin,30,0.36017797552836484,-0.020093546227922435,0.6929644317958508,2000,30
+validation,false_relevant/neutral,auc_awareness_predicts_context_generation,30,0.0,0.0,0.0,1308,30
+validation,false_relevant/neutral,auc_awareness_predicts_parametric_generation,30,0.6428571428571428,0.17857142857142858,1.0,1764,30

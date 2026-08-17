@@ -1,0 +1,817 @@
+{
+  "analysis_version": "1.0.1",
+  "baseline_fidelity": {
+    "allow_mismatch_override": false,
+    "max_absolute_margin_difference": 3.703125,
+    "passed": false,
+    "tolerance": 0.1
+  },
+  "by_strength": [
+    {
+      "analysis_split": "id_test",
+      "ci95_high": 8.980276302496593,
+      "ci95_low": 0.06546810170014718,
+      "direction_id": "random_orthogonal_01",
+      "estimate": 4.367872436841329,
+      "n": 24,
+      "outcome": "resolution_margin_delta",
+      "strength_sd": -86.1326,
+      "unique_facts": 24
+    },
+    {
+      "analysis_split": "id_test",
+      "ci95_high": -7.431447759387311e-07,
+      "ci95_low": -7.431447759387311e-07,
+      "direction_id": "random_orthogonal_01",
+      "estimate": -7.431447759387311e-07,
+      "n": 24,
+      "outcome": "awareness_probe_logit_delta",
+      "strength_sd": -86.1326,
+      "unique_facts": 24
+    },
+    {
+      "analysis_split": "id_test",
+      "ci95_high": 9.985641047855218,
+      "ci95_low": -0.2095910499493281,
+      "direction_id": "random_orthogonal_01",
+      "estimate": 4.640411039193471,
+      "n": 24,
+      "outcome": "resolution_margin_delta",
+      "strength_sd": -68.9364,
+      "unique_facts": 24
+    },
+    {
+      "analysis_split": "id_test",
+      "ci95_high": 2.5973592165939863e-08,
+      "ci95_low": 2.5973592165939863e-08,
+      "direction_id": "random_orthogonal_01",
+      "estimate": 2.5973592165939863e-08,
+      "n": 24,
+      "outcome": "awareness_probe_logit_delta",
+      "strength_sd": -68.9364,
+      "unique_facts": 24
+    },
+    {
+      "analysis_split": "id_test",
+      "ci95_high": 11.201841690142949,
+      "ci95_low": 0.611672263344129,
+      "direction_id": "random_orthogonal_01",
+      "estimate": 5.709253112475078,
+      "n": 24,
+      "outcome": "resolution_margin_delta",
+      "strength_sd": -43.0663,
+      "unique_facts": 24
+    },
+    {
+      "analysis_split": "id_test",
+      "ci95_high": -3.7157238796936554e-07,
+      "ci95_low": -3.7157238796936554e-07,
+      "direction_id": "random_orthogonal_01",
+      "estimate": -3.7157238796936554e-07,
+      "n": 24,
+      "outcome": "awareness_probe_logit_delta",
+      "strength_sd": -43.0663,
+      "unique_facts": 24
+    },
+    {
+      "analysis_split": "id_test",
+      "ci95_high": 11.201644074420134,
+      "ci95_low": 1.7101962183912596,
+      "direction_id": "random_orthogonal_01",
+      "estimate": 6.315851032733917,
+      "n": 24,
+      "outcome": "resolution_margin_delta",
+      "strength_sd": -34.4682,
+      "unique_facts": 24
+    },
+    {
+      "analysis_split": "id_test",
+      "ci95_high": 1.2986796082969931e-08,
+      "ci95_low": 1.2986796082969931e-08,
+      "direction_id": "random_orthogonal_01",
+      "estimate": 1.2986796082969931e-08,
+      "n": 24,
+      "outcome": "awareness_probe_logit_delta",
+      "strength_sd": -34.4682,
+      "unique_facts": 24
+    },
+    {
+      "analysis_split": "id_test",
+      "ci95_high": 7.165885733564694,
+      "ci95_low": -1.0394915893673895,
+      "direction_id": "random_orthogonal_01",
+      "estimate": 3.000527640183767,
+      "n": 24,
+      "outcome": "resolution_margin_delta",
+      "strength_sd": 34.4682,
+      "unique_facts": 24
+    },
+    {
+      "analysis_split": "id_test",
+      "ci95_high": -1.2986796082969931e-08,
+      "ci95_low": -1.2986796082969931e-08,
+      "direction_id": "random_orthogonal_01",
+      "estimate": -1.2986796082969931e-08,
+      "n": 24,
+      "outcome": "awareness_probe_logit_delta",
+      "strength_sd": 34.4682,
+      "unique_facts": 24
+    },
+    {
+      "analysis_split": "id_test",
+      "ci95_high": 7.22183503806591,
+      "ci95_low": -1.301659134030342,
+      "direction_id": "random_orthogonal_01",
+      "estimate": 3.0248790979385376,
+      "n": 24,
+      "outcome": "resolution_margin_delta",
+      "strength_sd": 43.0663,
+      "unique_facts": 24
+    },
+    {
+      "analysis_split": "id_test",
+      "ci95_high": 3.7157238796936554e-07,
+      "ci95_low": 3.7157238796936554e-07,
+      "direction_id": "random_orthogonal_01",
+      "estimate": 3.7157238796936554e-07,
+      "n": 24,
+      "outcome": "awareness_probe_logit_delta",
+      "strength_sd": 43.0663,
+      "unique_facts": 24
+    },
+    {
+      "analysis_split": "id_test",
+      "ci95_high": 7.164339971542353,
+      "ci95_low": 0.13869140048821768,
+      "direction_id": "random_orthogonal_01",
+      "estimate": 3.7188525994618735,
+      "n": 24,
+      "outcome": "resolution_margin_delta",
+      "strength_sd": 68.9364,
+      "unique_facts": 24
+    },
+    {
+      "analysis_split": "id_test",
+      "ci95_high": -2.5973592165939863e-08,
+      "ci95_low": -2.5973592165939863e-08,
+      "direction_id": "random_orthogonal_01",
+      "estimate": -2.5973592165939863e-08,
+      "n": 24,
+      "outcome": "awareness_probe_logit_delta",
+      "strength_sd": 68.9364,
+      "unique_facts": 24
+    },
+    {
+      "analysis_split": "id_test",
+      "ci95_high": 6.982426619529723,
+      "ci95_low": 0.29646595319112146,
+      "direction_id": "random_orthogonal_01",
+      "estimate": 3.720232685407003,
+      "n": 24,
+      "outcome": "resolution_margin_delta",
+      "strength_sd": 86.1326,
+      "unique_facts": 24
+    },
+    {
+      "analysis_split": "id_test",
+      "ci95_high": 7.431447759387311e-07,
+      "ci95_low": 7.431447759387311e-07,
+      "direction_id": "random_orthogonal_01",
+      "estimate": 7.431447759387311e-07,
+      "n": 24,
+      "outcome": "awareness_probe_logit_delta",
+      "strength_sd": 86.1326,
+      "unique_facts": 24
+    },
+    {
+      "analysis_split": "paraphrase_test",
+      "ci95_high": 8.44227465192477,
+      "ci95_low": 0.5338073308269183,
+      "direction_id": "random_orthogonal_01",
+      "estimate": 4.5313976009686785,
+      "n": 24,
+      "outcome": "resolution_margin_delta",
+      "strength_sd": -86.1326,
+      "unique_facts": 24
+    },
+    {
+      "analysis_split": "paraphrase_test",
+      "ci95_high": -7.431447759387311e-07,
+      "ci95_low": -7.431447759387311e-07,
+      "direction_id": "random_orthogonal_01",
+      "estimate": -7.431447759387311e-07,
+      "n": 24,
+      "outcome": "awareness_probe_logit_delta",
+      "strength_sd": -86.1326,
+      "unique_facts": 24
+    },
+    {
+      "analysis_split": "paraphrase_test",
+      "ci95_high": 9.109871662656467,
+      "ci95_low": 0.3367534399032593,
+      "direction_id": "random_orthogonal_01",
+      "estimate": 4.688094178835551,
+      "n": 24,
+      "outcome": "resolution_margin_delta",
+      "strength_sd": -68.9364,
+      "unique_facts": 24
+    },
+    {
+      "analysis_split": "paraphrase_test",
+      "ci95_high": 2.5973592165939863e-08,
+      "ci95_low": 2.5973592165939863e-08,
+      "direction_id": "random_orthogonal_01",
+      "estimate": 2.5973592165939863e-08,
+      "n": 24,
+      "outcome": "awareness_probe_logit_delta",
+      "strength_sd": -68.9364,
+      "unique_facts": 24
+    },
+    {
+      "analysis_split": "paraphrase_test",
+      "ci95_high": 9.821856994926929,
+      "ci95_low": 0.8147912452618281,
+      "direction_id": "random_orthogonal_01",
+      "estimate": 5.515873928864797,
+      "n": 24,
+      "outcome": "resolution_margin_delta",
+      "strength_sd": -43.0663,
+      "unique_facts": 24
+    },
+    {
+      "analysis_split": "paraphrase_test",
+      "ci95_high": -3.7157238796936554e-07,
+      "ci95_low": -3.7157238796936554e-07,
+      "direction_id": "random_orthogonal_01",
+      "estimate": -3.7157238796936554e-07,
+      "n": 24,
+      "outcome": "awareness_probe_logit_delta",
+      "strength_sd": -43.0663,
+      "unique_facts": 24
+    },
+    {
+      "analysis_split": "paraphrase_test",
+      "ci95_high": 10.849575606981913,
+      "ci95_low": 2.1875206217169763,
+      "direction_id": "random_orthogonal_01",
+      "estimate": 6.462484339872996,
+      "n": 24,
+      "outcome": "resolution_margin_delta",
+      "strength_sd": -34.4682,
+      "unique_facts": 24
+    },
+    {
+      "analysis_split": "paraphrase_test",
+      "ci95_high": 1.2986796082969931e-08,
+      "ci95_low": 1.2986796082969931e-08,
+      "direction_id": "random_orthogonal_01",
+      "estimate": 1.2986796082969931e-08,
+      "n": 24,
+      "outcome": "awareness_probe_logit_delta",
+      "strength_sd": -34.4682,
+      "unique_facts": 24
+    },
+    {
+      "analysis_split": "paraphrase_test",
+      "ci95_high": 7.252856445312499,
+      "ci95_low": -0.4209706674019495,
+      "direction_id": "random_orthogonal_01",
+      "estimate": 3.325733264287313,
+      "n": 24,
+      "outcome": "resolution_margin_delta",
+      "strength_sd": 34.4682,
+      "unique_facts": 24
+    },
+    {
+      "analysis_split": "paraphrase_test",
+      "ci95_high": -1.2986796082969931e-08,
+      "ci95_low": -1.2986796082969931e-08,
+      "direction_id": "random_orthogonal_01",
+      "estimate": -1.2986796082969931e-08,
+      "n": 24,
+      "outcome": "awareness_probe_logit_delta",
+      "strength_sd": 34.4682,
+      "unique_facts": 24
+    },
+    {
+      "analysis_split": "paraphrase_test",
+      "ci95_high": 7.050589577356974,
+      "ci95_low": -1.0788027981917063,
+      "direction_id": "random_orthogonal_01",
+      "estimate": 2.9106720685958862,
+      "n": 24,
+      "outcome": "resolution_margin_delta",
+      "strength_sd": 43.0663,
+      "unique_facts": 24
+    },
+    {
+      "analysis_split": "paraphrase_test",
+      "ci95_high": 3.7157238796936554e-07,
+      "ci95_low": 3.7157238796936554e-07,
+      "direction_id": "random_orthogonal_01",
+      "estimate": 3.7157238796936554e-07,
+      "n": 24,
+      "outcome": "awareness_probe_logit_delta",
+      "strength_sd": 43.0663,
+      "unique_facts": 24
+    },
+    {
+      "analysis_split": "paraphrase_test",
+      "ci95_high": 7.89655480881532,
+      "ci95_low": -0.22790230810642226,
+      "direction_id": "random_orthogonal_01",
+      "estimate": 3.4480146964391074,
+      "n": 24,
+      "outcome": "resolution_margin_delta",
+      "strength_sd": 68.9364,
+      "unique_facts": 24
+    },
+    {
+      "analysis_split": "paraphrase_test",
+      "ci95_high": -2.5973592165939863e-08,
+      "ci95_low": -2.5973592165939863e-08,
+      "direction_id": "random_orthogonal_01",
+      "estimate": -2.5973592165939863e-08,
+      "n": 24,
+      "outcome": "awareness_probe_logit_delta",
+      "strength_sd": 68.9364,
+      "unique_facts": 24
+    },
+    {
+      "analysis_split": "paraphrase_test",
+      "ci95_high": 7.769632166624068,
+      "ci95_low": 0.11638419727484398,
+      "direction_id": "random_orthogonal_01",
+      "estimate": 3.885359267393748,
+      "n": 24,
+      "outcome": "resolution_margin_delta",
+      "strength_sd": 86.1326,
+      "unique_facts": 24
+    },
+    {
+      "analysis_split": "paraphrase_test",
+      "ci95_high": 7.431447759387311e-07,
+      "ci95_low": 7.431447759387311e-07,
+      "direction_id": "random_orthogonal_01",
+      "estimate": 7.431447759387311e-07,
+      "n": 24,
+      "outcome": "awareness_probe_logit_delta",
+      "strength_sd": 86.1326,
+      "unique_facts": 24
+    },
+    {
+      "analysis_split": "ood_relation",
+      "ci95_high": 22.7493291636308,
+      "ci95_low": 8.782532680034636,
+      "direction_id": "random_orthogonal_01",
+      "estimate": 15.844380696614584,
+      "n": 24,
+      "outcome": "resolution_margin_delta",
+      "strength_sd": -86.1326,
+      "unique_facts": 24
+    },
+    {
+      "analysis_split": "ood_relation",
+      "ci95_high": -7.431447759387311e-07,
+      "ci95_low": -7.431447759387311e-07,
+      "direction_id": "random_orthogonal_01",
+      "estimate": -7.431447759387311e-07,
+      "n": 24,
+      "outcome": "awareness_probe_logit_delta",
+      "strength_sd": -86.1326,
+      "unique_facts": 24
+    },
+    {
+      "analysis_split": "ood_relation",
+      "ci95_high": 22.966532977422077,
+      "ci95_low": 8.724182130893071,
+      "direction_id": "random_orthogonal_01",
+      "estimate": 15.746195554733276,
+      "n": 24,
+      "outcome": "resolution_margin_delta",
+      "strength_sd": -68.9364,
+      "unique_facts": 24
+    },
+    {
+      "analysis_split": "ood_relation",
+      "ci95_high": 2.5973592165939863e-08,
+      "ci95_low": 2.5973592165939863e-08,
+      "direction_id": "random_orthogonal_01",
+      "estimate": 2.5973592165939863e-08,
+      "n": 24,
+      "outcome": "awareness_probe_logit_delta",
+      "strength_sd": -68.9364,
+      "unique_facts": 24
+    },
+    {
+      "analysis_split": "ood_relation",
+      "ci95_high": 22.049180286129317,
+      "ci95_low": 8.440094110369682,
+      "direction_id": "random_orthogonal_01",
+      "estimate": 15.38305668036143,
+      "n": 24,
+      "outcome": "resolution_margin_delta",
+      "strength_sd": -43.0663,
+      "unique_facts": 24
+    },
+    {
+      "analysis_split": "ood_relation",
+      "ci95_high": -3.7157238796936554e-07,
+      "ci95_low": -3.7157238796936554e-07,
+      "direction_id": "random_orthogonal_01",
+      "estimate": -3.7157238796936554e-07,
+      "n": 24,
+      "outcome": "awareness_probe_logit_delta",
+      "strength_sd": -43.0663,
+      "unique_facts": 24
+    },
+    {
+      "analysis_split": "ood_relation",
+      "ci95_high": 22.581537848711015,
+      "ci95_low": 10.22221675713857,
+      "direction_id": "random_orthogonal_01",
+      "estimate": 16.579549153645832,
+      "n": 24,
+      "outcome": "resolution_margin_delta",
+      "strength_sd": -34.4682,
+      "unique_facts": 24
+    },
+    {
+      "analysis_split": "ood_relation",
+      "ci95_high": 1.2986796082969931e-08,
+      "ci95_low": 1.2986796082969931e-08,
+      "direction_id": "random_orthogonal_01",
+      "estimate": 1.2986796082969931e-08,
+      "n": 24,
+      "outcome": "awareness_probe_logit_delta",
+      "strength_sd": -34.4682,
+      "unique_facts": 24
+    },
+    {
+      "analysis_split": "ood_relation",
+      "ci95_high": 20.460127889116606,
+      "ci95_low": 7.51022953192393,
+      "direction_id": "random_orthogonal_01",
+      "estimate": 13.95703132947286,
+      "n": 24,
+      "outcome": "resolution_margin_delta",
+      "strength_sd": 34.4682,
+      "unique_facts": 24
+    },
+    {
+      "analysis_split": "ood_relation",
+      "ci95_high": -1.2986796082969931e-08,
+      "ci95_low": -1.2986796082969931e-08,
+      "direction_id": "random_orthogonal_01",
+      "estimate": -1.2986796082969931e-08,
+      "n": 24,
+      "outcome": "awareness_probe_logit_delta",
+      "strength_sd": 34.4682,
+      "unique_facts": 24
+    },
+    {
+      "analysis_split": "ood_relation",
+      "ci95_high": 19.184457515676815,
+      "ci95_low": 6.591934243837993,
+      "direction_id": "random_orthogonal_01",
+      "estimate": 12.986531654993692,
+      "n": 24,
+      "outcome": "resolution_margin_delta",
+      "strength_sd": 43.0663,
+      "unique_facts": 24
+    },
+    {
+      "analysis_split": "ood_relation",
+      "ci95_high": 3.7157238796936554e-07,
+      "ci95_low": 3.7157238796936554e-07,
+      "direction_id": "random_orthogonal_01",
+      "estimate": 3.7157238796936554e-07,
+      "n": 24,
+      "outcome": "awareness_probe_logit_delta",
+      "strength_sd": 43.0663,
+      "unique_facts": 24
+    },
+    {
+      "analysis_split": "ood_relation",
+      "ci95_high": 18.314959760506948,
+      "ci95_low": 7.250714311997096,
+      "direction_id": "random_orthogonal_01",
+      "estimate": 12.799316644668579,
+      "n": 24,
+      "outcome": "resolution_margin_delta",
+      "strength_sd": 68.9364,
+      "unique_facts": 24
+    },
+    {
+      "analysis_split": "ood_relation",
+      "ci95_high": -2.5973592165939863e-08,
+      "ci95_low": -2.5973592165939863e-08,
+      "direction_id": "random_orthogonal_01",
+      "estimate": -2.5973592165939863e-08,
+      "n": 24,
+      "outcome": "awareness_probe_logit_delta",
+      "strength_sd": 68.9364,
+      "unique_facts": 24
+    },
+    {
+      "analysis_split": "ood_relation",
+      "ci95_high": 17.67631136079629,
+      "ci95_low": 7.34219368994236,
+      "direction_id": "random_orthogonal_01",
+      "estimate": 12.832967201868692,
+      "n": 24,
+      "outcome": "resolution_margin_delta",
+      "strength_sd": 86.1326,
+      "unique_facts": 24
+    },
+    {
+      "analysis_split": "ood_relation",
+      "ci95_high": 7.431447759387311e-07,
+      "ci95_low": 7.431447759387311e-07,
+      "direction_id": "random_orthogonal_01",
+      "estimate": 7.431447759387311e-07,
+      "n": 24,
+      "outcome": "awareness_probe_logit_delta",
+      "strength_sd": 86.1326,
+      "unique_facts": 24
+    }
+  ],
+  "direction_construction": {
+    "definitions": {
+      "awareness_raw": "mean training neutral-policy FR - TR - FI + TI residual contrast",
+      "awareness_specific": "awareness_raw residualized against resolution_raw and the falsehood/relevance probe directions",
+      "random_orthogonal_*": "seeded Gaussian control residualized against the experimental direction/readout subspace",
+      "resolution_awareness_orthogonal": "resolution_raw residualized against the awareness-probe direction",
+      "resolution_raw": "mean training false-relevant context-policy minus parametric-policy residual contrast"
+    },
+    "directions": {
+      "awareness_raw": {
+        "cosine_with_awareness_probe": 0.007053295887183376,
+        "cosine_with_falsehood_probe": 0.00013438705456456784,
+        "cosine_with_raw_awareness_interaction": 1.0000000000000002,
+        "cosine_with_raw_resolution": 0.3908015697038925,
+        "cosine_with_relevance_probe": -0.00013588870148789823,
+        "training_projection_sd": 15.809987883463549,
+        "unit_norm": 1.0000000000000002
+      },
+      "awareness_specific": {
+        "cosine_with_awareness_probe": 0.007009718805634614,
+        "cosine_with_falsehood_probe": -5.421010862427522e-20,
+        "cosine_with_raw_awareness_interaction": 0.9204747914356809,
+        "cosine_with_raw_resolution": -2.7755575615628914e-17,
+        "cosine_with_relevance_probe": 1.0164395367051604e-19,
+        "training_projection_sd": 13.052114308262633,
+        "unit_norm": 1.0
+      },
+      "random_orthogonal_01": {
+        "cosine_with_awareness_probe": -8.673617379884035e-18,
+        "cosine_with_falsehood_probe": 1.6046192152785466e-17,
+        "cosine_with_raw_awareness_interaction": 1.734723475976807e-18,
+        "cosine_with_raw_resolution": 1.0408340855860843e-17,
+        "cosine_with_relevance_probe": 5.637851296924623e-18,
+        "training_projection_sd": 0.37867118944851164,
+        "unit_norm": 0.9999999999999999
+      },
+      "resolution_awareness_orthogonal": {
+        "cosine_with_awareness_probe": 5.421010862427522e-19,
+        "cosine_with_falsehood_probe": -0.00046063753882051475,
+        "cosine_with_raw_awareness_interaction": 0.39078559508300015,
+        "cosine_with_raw_resolution": 0.9999970519674446,
+        "cosine_with_relevance_probe": -0.0007400335906588409,
+        "training_projection_sd": 16.30795819442256,
+        "unit_norm": 0.9999999999999998
+      },
+      "resolution_raw": {
+        "cosine_with_awareness_probe": 0.002428179651409011,
+        "cosine_with_falsehood_probe": -7.66337328092667e-05,
+        "cosine_with_raw_awareness_interaction": 0.39080156970389257,
+        "cosine_with_raw_resolution": 1.0000000000000004,
+        "cosine_with_relevance_probe": 0.0009943168644551339,
+        "training_projection_sd": 16.30800255523474,
+        "unit_norm": 1.0000000000000002
+      }
+    },
+    "scale_definition": "sample SD of training activations projected on the unit direction",
+    "scales": {
+      "awareness_raw": 15.809987883463549,
+      "awareness_specific": 13.052114308262633,
+      "random_orthogonal_01": 0.37867118944851164,
+      "resolution_awareness_orthogonal": 16.30795819442256,
+      "resolution_raw": 16.30800255523474
+    },
+    "training_factorial_groups": 87,
+    "training_policy_pairs": 87
+  },
+  "dose_response_slopes": [
+    {
+      "analysis_split": "id_test",
+      "ci95_high": 0.0055339363010849345,
+      "ci95_low": -0.027654530565139862,
+      "direction_id": "random_orthogonal_01",
+      "estimate": -0.011476118990047616,
+      "n": 24,
+      "outcome": "resolution_margin_per_1sd",
+      "unique_facts": 24
+    },
+    {
+      "analysis_split": "id_test",
+      "ci95_high": 5.112003929268193e-09,
+      "ci95_low": 5.112003929268193e-09,
+      "direction_id": "random_orthogonal_01",
+      "estimate": 5.112003929268193e-09,
+      "n": 24,
+      "outcome": "awareness_logit_per_1sd",
+      "unique_facts": 24
+    },
+    {
+      "analysis_split": "paraphrase_test",
+      "ci95_high": 0.005937597952091573,
+      "ci95_low": -0.030574512521163704,
+      "direction_id": "random_orthogonal_01",
+      "estimate": -0.011878879297399938,
+      "n": 24,
+      "outcome": "resolution_margin_per_1sd",
+      "unique_facts": 24
+    },
+    {
+      "analysis_split": "paraphrase_test",
+      "ci95_high": 5.112003929268193e-09,
+      "ci95_low": 5.112003929268193e-09,
+      "direction_id": "random_orthogonal_01",
+      "estimate": 5.112003929268193e-09,
+      "n": 24,
+      "outcome": "awareness_logit_per_1sd",
+      "unique_facts": 24
+    },
+    {
+      "analysis_split": "ood_relation",
+      "ci95_high": 0.0028233972954679713,
+      "ci95_low": -0.045787908227270635,
+      "direction_id": "random_orthogonal_01",
+      "estimate": -0.021563658764949024,
+      "n": 24,
+      "outcome": "resolution_margin_per_1sd",
+      "unique_facts": 24
+    },
+    {
+      "analysis_split": "ood_relation",
+      "ci95_high": 5.112003929268193e-09,
+      "ci95_low": 5.112003929268193e-09,
+      "direction_id": "random_orthogonal_01",
+      "estimate": 5.112003929268193e-09,
+      "n": 24,
+      "outcome": "awareness_logit_per_1sd",
+      "unique_facts": 24
+    }
+  ],
+  "elapsed_seconds": 177.56501483917236,
+  "evaluation_splits": [
+    "id_test",
+    "paraphrase_test",
+    "ood_relation"
+  ],
+  "inputs": {
+    "activation_manifest": {
+      "path": "/scratch/bbjr/skarmakar/conflict/activations/manifest.json",
+      "sha256": "f06c839f2d59ac0293508710fe8a0a486338af5819524671799331a0ca5d8dc5"
+    },
+    "behavior": {
+      "path": "/u/skarmakar1/ideas/mats/results/gemma4_12b_conflict/behavior_results.jsonl",
+      "sha256": "43f8a0424a7404dbe42189de49f4456dadbf7f6cb3c5e2a447b6ce7f46fb99e7"
+    },
+    "collection_metadata": {
+      "path": "/u/skarmakar1/ideas/mats/results/gemma4_12b_conflict/02_collect_run.json",
+      "sha256": "6675913472168cb3f8cfb1a154749d704a704bf26aeb51ea68f2f6c0b9baa410"
+    },
+    "dataset_manifest": {
+      "path": "/u/skarmakar1/ideas/mats/conflict_awareness_dataset_v1/manifest.json",
+      "sha256": "fb5059443b9938deae81914353209b26a973f039a2c7397349670ede5eca5712"
+    },
+    "experiment": {
+      "path": "/u/skarmakar1/ideas/mats/conflict_awareness_dataset_v1/experiment.jsonl",
+      "sha256": "0ae5f5642b2bb5d64fbe03b14ab27bdaa0339cd9076319c9f3208e9e95a09f3a"
+    },
+    "probe_metadata": {
+      "path": "/u/skarmakar1/ideas/mats/results/gemma4_12b_conflict/analysis/probes/probe_metadata.json",
+      "sha256": "afe1a4efc564e60ea9af9d261590d09d67eaba8c8b3c269862ebf378e84ce2f6"
+    },
+    "probe_model": {
+      "path": "/u/skarmakar1/ideas/mats/results/gemma4_12b_conflict/analysis/probes/probe_model.npz",
+      "sha256": "7233cf9c21a2fd461cd61f392d95f2120c73b756f3a1e07cb08f4896e4676457"
+    },
+    "probe_scores": {
+      "path": "/u/skarmakar1/ideas/mats/results/gemma4_12b_conflict/analysis/probes/probe_scores.jsonl",
+      "sha256": "84303ffc49d0ef3483b63dfd926efd7e4763e4d7d2bf31c285201c15a0525640"
+    }
+  },
+  "interpretive_limits": [
+    "The resolution-orthogonal direction is orthogonal only to the fitted linear awareness readout.",
+    "A residual-stream intervention can have off-manifold effects; random controls and dose response are essential.",
+    "The experiment tests causal influence on candidate likelihoods, not phenomenal awareness."
+  ],
+  "intervention_site": {
+    "activation_definition": "decoder block output residual; before final model RMSNorm",
+    "layer_index": 32,
+    "operation": "add vector to decoder-block output residual",
+    "position": "assistant_start"
+  },
+  "outputs": {
+    "directions": "/u/skarmakar1/ideas/mats/results/gemma4_12b_conflict/analysis/causal_random_norm_matched/causal_directions.npz",
+    "report": "/u/skarmakar1/ideas/mats/results/gemma4_12b_conflict/analysis/causal_random_norm_matched/causal_report.md",
+    "results": "/u/skarmakar1/ideas/mats/results/gemma4_12b_conflict/analysis/causal_random_norm_matched/causal_results.jsonl",
+    "summary": "/u/skarmakar1/ideas/mats/results/gemma4_12b_conflict/analysis/causal_random_norm_matched/causal_summary.json"
+  },
+  "paired_causal_baseline": {
+    "max_absolute_zero_intervention_difference": 0.0,
+    "method": "zero-delta and intervention candidate pairs evaluated together in the same isolated four-row batch",
+    "passed": true,
+    "tolerance": 1e-05
+  },
+  "requested_directions": [
+    "random_orthogonal_01"
+  ],
+  "runtime": {
+    "chat": {
+      "add_generation_prompt": true,
+      "bos_token_id": 2,
+      "chat_template_sha256": "ae53464bf3be25802b3a5b37def7fd89667067d7577049b3b2d74c4d8de4c6d4",
+      "enable_thinking": false,
+      "generation_eos_token_ids": [
+        1,
+        50,
+        106
+      ],
+      "pad_token_id": 0,
+      "padding_side": "left",
+      "tokenizer_eos_token_id": 1
+    },
+    "code_version": "1.0.0",
+    "config_sha256": "ccb996e14fdc4cb13aea7b9702e2457d61b4e2aa42a9e70b62c61d1e559d6de3",
+    "datasets": {
+      "behavior_results.jsonl": {
+        "path": "/u/skarmakar1/ideas/mats/results/gemma4_12b_conflict/behavior_results.jsonl",
+        "sha256": "43f8a0424a7404dbe42189de49f4456dadbf7f6cb3c5e2a447b6ce7f46fb99e7"
+      },
+      "experiment.jsonl": {
+        "path": "/u/skarmakar1/ideas/mats/conflict_awareness_dataset_v1/experiment.jsonl",
+        "sha256": "0ae5f5642b2bb5d64fbe03b14ab27bdaa0339cd9076319c9f3208e9e95a09f3a"
+      }
+    },
+    "hardware": {
+      "cuda_available": true,
+      "cuda_version": "12.8",
+      "gpu_names": [
+        "NVIDIA A100-SXM4-40GB"
+      ]
+    },
+    "model": {
+      "attention_implementation": "sdpa",
+      "class": "Gemma4UnifiedForConditionalGeneration",
+      "device_map": null,
+      "dtype": "torch.bfloat16",
+      "hidden_size": 3840,
+      "id": "google/gemma-4-12B-it",
+      "loaded_commit_hash": "707f0a3b8a3c7ad586ed01e27eafbad8a27dd0f7",
+      "num_hidden_layers": 48,
+      "processor_class": "Gemma4UnifiedProcessor",
+      "requested_revision": "707f0a3b8a3c7ad586ed01e27eafbad8a27dd0f7",
+      "tokenizer_class": "GemmaTokenizer"
+    },
+    "packages": {
+      "accelerate": "1.10.1",
+      "python": "3.10.18",
+      "tokenizers": "0.22.2",
+      "torch": "2.10.0+cu128",
+      "transformers": "5.15.0"
+    }
+  },
+  "scoring": {
+    "decoding_used_for_causal_outcome": false,
+    "eos_included": false,
+    "injection_token": "final non-padding token of canonical generation prefix",
+    "padding": "left",
+    "position_ids": "explicit 0..length-1 over non-padding tokens",
+    "primary_outcome": "context answer sum logprob minus parametric answer sum logprob"
+  },
+  "script": "05_causal_dissociation.py",
+  "selected_examples": {
+    "id_test": 24,
+    "ood_relation": 24,
+    "paraphrase_test": 24
+  },
+  "strengths_sd": [
+    -86.1326,
+    -68.9364,
+    -43.0663,
+    -34.4682,
+    34.4682,
+    43.0663,
+    68.9364,
+    86.1326
+  ],
+  "uncertainty": {
+    "method": "percentile cluster bootstrap over query fact_id",
+    "replicates": 1000,
+    "seed": 20260816
+  }
+}

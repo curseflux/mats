@@ -1,0 +1,221 @@
+{
+  "activations": {
+    "completed_samples": 9468,
+    "estimated_tensor_gib": 22.754058837890625,
+    "input_signature": "840eaf7809c4c5124aa3125254abb1338f9b3cf561e4d5c01f42db48a0f32ea0",
+    "layers": [
+      0,
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11,
+      12,
+      13,
+      14,
+      15,
+      16,
+      17,
+      18,
+      19,
+      20,
+      21,
+      22,
+      23,
+      24,
+      25,
+      26,
+      27,
+      28,
+      29,
+      30,
+      31,
+      32,
+      33,
+      34,
+      35,
+      36,
+      37,
+      38,
+      39,
+      40,
+      41,
+      42,
+      43,
+      44,
+      45,
+      46,
+      47
+    ],
+    "manifest": "/scratch/bbjr/skarmakar/conflict/activations/manifest.json",
+    "positions": [
+      "claim_answer_end",
+      "claim_end",
+      "context_end",
+      "query_subject_end",
+      "question_end",
+      "prompt_end",
+      "assistant_start"
+    ],
+    "reused_complete_output": false
+  },
+  "behavior": {
+    "by_condition": {
+      "false_irrelevant": 2367,
+      "false_relevant": 2367,
+      "true_irrelevant": 2367,
+      "true_relevant": 2367
+    },
+    "by_policy": {
+      "context": 3156,
+      "neutral": 3156,
+      "parametric": 3156
+    },
+    "by_template_bundle": {
+      "development": 3156,
+      "heldout_paraphrase": 3156,
+      "validation": 3156
+    },
+    "generation": "greedy",
+    "input_signature": "f9e6a2a0c75a6cd70c76289a99664c7a12648050212208789e62702bed088d4c",
+    "observed_knowledge_source": {
+      "contextual": 900,
+      "irrelevant_claim": 6,
+      "other": 565,
+      "parametric": 5406,
+      "shared_parametric_and_context": 2353,
+      "unparseable": 238
+    },
+    "records": 9468,
+    "results": "/scratch/bbjr/skarmakar/conflict/behavior_results.jsonl",
+    "sequence_score": "sum of answer-token log-probabilities; EOS excluded"
+  },
+  "chat": {
+    "add_generation_prompt": true,
+    "bos_token_id": 2,
+    "chat_template_sha256": "ae53464bf3be25802b3a5b37def7fd89667067d7577049b3b2d74c4d8de4c6d4",
+    "enable_thinking": false,
+    "generation_eos_token_ids": [
+      1,
+      50,
+      106
+    ],
+    "pad_token_id": 0,
+    "padding_side": "left",
+    "tokenizer_eos_token_id": 1
+  },
+  "code_version": "1.0.0",
+  "config_sha256": "3140fdf444d2a90ddff86a3826f21b0f45bf94b96618daa3817d4eb9d9433b9e",
+  "datasets": {
+    "eligible_facts.jsonl": {
+      "path": "/scratch/bbjr/skarmakar/conflict/eligible_facts.jsonl",
+      "sha256": "779a28549551b9d12d6bb6234559b0fc6169ad844d9ed20935e8715007a52ef9"
+    },
+    "experiment.jsonl": {
+      "path": "/u/skarmakar1/ideas/mats/conflict_awareness_dataset_v1/experiment.jsonl",
+      "sha256": "0ae5f5642b2bb5d64fbe03b14ab27bdaa0339cd9076319c9f3208e9e95a09f3a"
+    },
+    "manifest.json": {
+      "path": "/u/skarmakar1/ideas/mats/conflict_awareness_dataset_v1/manifest.json",
+      "sha256": "fb5059443b9938deae81914353209b26a973f039a2c7397349670ede5eca5712"
+    }
+  },
+  "elapsed_seconds": 383.44034600257874,
+  "hardware": {
+    "cuda_available": true,
+    "cuda_version": "12.8",
+    "gpu_names": [
+      "NVIDIA H200"
+    ]
+  },
+  "model": {
+    "attention_implementation": "sdpa",
+    "class": "Gemma4UnifiedForConditionalGeneration",
+    "device_map": null,
+    "dtype": "torch.bfloat16",
+    "hidden_size": 3840,
+    "id": "google/gemma-4-12B-it",
+    "loaded_commit_hash": "707f0a3b8a3c7ad586ed01e27eafbad8a27dd0f7",
+    "num_hidden_layers": 48,
+    "processor_class": "Gemma4UnifiedProcessor",
+    "requested_revision": "707f0a3b8a3c7ad586ed01e27eafbad8a27dd0f7",
+    "tokenizer_class": "GemmaTokenizer"
+  },
+  "packages": {
+    "accelerate": "1.10.1",
+    "python": "3.10.18",
+    "tokenizers": "0.22.2",
+    "torch": "2.10.0+cu128",
+    "transformers": "5.15.0"
+  },
+  "script": "02_collect_model_data.py",
+  "selection": {
+    "eligible_facts": 267,
+    "excluded_group_reason_counts_nonexclusive": {
+      "paragraph_fact_failed_screening": 24,
+      "query_fact_failed_screening": 12
+    },
+    "expected_cells": [
+      [
+        "false_irrelevant",
+        "context"
+      ],
+      [
+        "false_irrelevant",
+        "neutral"
+      ],
+      [
+        "false_irrelevant",
+        "parametric"
+      ],
+      [
+        "false_relevant",
+        "context"
+      ],
+      [
+        "false_relevant",
+        "neutral"
+      ],
+      [
+        "false_relevant",
+        "parametric"
+      ],
+      [
+        "true_irrelevant",
+        "context"
+      ],
+      [
+        "true_irrelevant",
+        "neutral"
+      ],
+      [
+        "true_irrelevant",
+        "parametric"
+      ],
+      [
+        "true_relevant",
+        "context"
+      ],
+      [
+        "true_relevant",
+        "neutral"
+      ],
+      [
+        "true_relevant",
+        "parametric"
+      ]
+    ],
+    "experiment_records": 9756,
+    "factorial_groups": 813,
+    "records_per_group": 12,
+    "screened_facts": 271,
+    "selected_factorial_groups": 789,
+    "selected_records": 9468
+  }
+}

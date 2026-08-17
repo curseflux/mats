@@ -1,0 +1,1199 @@
+{
+  "analysis_version": "1.0.1",
+  "baseline_fidelity": {
+    "allow_mismatch_override": false,
+    "max_absolute_margin_difference": 3.703125,
+    "passed": false,
+    "tolerance": 0.1
+  },
+  "by_strength": [
+    {
+      "analysis_split": "id_test",
+      "ci95_high": 11.693482136726379,
+      "ci95_low": 9.500949081778526,
+      "direction_id": "awareness_specific",
+      "estimate": 10.601506650447845,
+      "n": 24,
+      "outcome": "resolution_margin_delta",
+      "strength_sd": -2.0,
+      "unique_facts": 24
+    },
+    {
+      "analysis_split": "id_test",
+      "ci95_high": -9.622350596649902,
+      "ci95_low": -9.622350596649902,
+      "direction_id": "awareness_specific",
+      "estimate": -9.622350596649902,
+      "n": 24,
+      "outcome": "awareness_probe_logit_delta",
+      "strength_sd": -2.0,
+      "unique_facts": 24
+    },
+    {
+      "analysis_split": "id_test",
+      "ci95_high": 5.76237836877505,
+      "ci95_low": 4.402040285865466,
+      "direction_id": "awareness_specific",
+      "estimate": 5.074901382128398,
+      "n": 24,
+      "outcome": "resolution_margin_delta",
+      "strength_sd": -1.0,
+      "unique_facts": 24
+    },
+    {
+      "analysis_split": "id_test",
+      "ci95_high": -4.811175298324951,
+      "ci95_low": -4.811175298324951,
+      "direction_id": "awareness_specific",
+      "estimate": -4.811175298324951,
+      "n": 24,
+      "outcome": "awareness_probe_logit_delta",
+      "strength_sd": -1.0,
+      "unique_facts": 24
+    },
+    {
+      "analysis_split": "id_test",
+      "ci95_high": -3.4759015594919522,
+      "ci95_low": -5.31504372904698,
+      "direction_id": "awareness_specific",
+      "estimate": -4.459548056125641,
+      "n": 24,
+      "outcome": "resolution_margin_delta",
+      "strength_sd": 1.0,
+      "unique_facts": 24
+    },
+    {
+      "analysis_split": "id_test",
+      "ci95_high": 4.811175298324951,
+      "ci95_low": 4.811175298324951,
+      "direction_id": "awareness_specific",
+      "estimate": 4.811175298324951,
+      "n": 24,
+      "outcome": "awareness_probe_logit_delta",
+      "strength_sd": 1.0,
+      "unique_facts": 24
+    },
+    {
+      "analysis_split": "id_test",
+      "ci95_high": -6.060804797212283,
+      "ci95_low": -9.235338081916174,
+      "direction_id": "awareness_specific",
+      "estimate": -7.628897150357564,
+      "n": 24,
+      "outcome": "resolution_margin_delta",
+      "strength_sd": 2.0,
+      "unique_facts": 24
+    },
+    {
+      "analysis_split": "id_test",
+      "ci95_high": 9.622350596649902,
+      "ci95_low": 9.622350596649902,
+      "direction_id": "awareness_specific",
+      "estimate": 9.622350596649902,
+      "n": 24,
+      "outcome": "awareness_probe_logit_delta",
+      "strength_sd": 2.0,
+      "unique_facts": 24
+    },
+    {
+      "analysis_split": "id_test",
+      "ci95_high": -18.53465889543295,
+      "ci95_low": -24.231640718877316,
+      "direction_id": "resolution_awareness_orthogonal",
+      "estimate": -21.256344000498455,
+      "n": 24,
+      "outcome": "resolution_margin_delta",
+      "strength_sd": -2.0,
+      "unique_facts": 24
+    },
+    {
+      "analysis_split": "id_test",
+      "ci95_high": 2.2193502369205476e-08,
+      "ci95_low": 2.2193502369205476e-08,
+      "direction_id": "resolution_awareness_orthogonal",
+      "estimate": 2.2193502369205476e-08,
+      "n": 24,
+      "outcome": "awareness_probe_logit_delta",
+      "strength_sd": -2.0,
+      "unique_facts": 24
+    },
+    {
+      "analysis_split": "id_test",
+      "ci95_high": -10.496407299240431,
+      "ci95_low": -13.64631896118323,
+      "direction_id": "resolution_awareness_orthogonal",
+      "estimate": -12.020856777826944,
+      "n": 24,
+      "outcome": "resolution_margin_delta",
+      "strength_sd": -1.0,
+      "unique_facts": 24
+    },
+    {
+      "analysis_split": "id_test",
+      "ci95_high": 1.1096751184602738e-08,
+      "ci95_low": 1.1096751184602738e-08,
+      "direction_id": "resolution_awareness_orthogonal",
+      "estimate": 1.1096751184602738e-08,
+      "n": 24,
+      "outcome": "awareness_probe_logit_delta",
+      "strength_sd": -1.0,
+      "unique_facts": 24
+    },
+    {
+      "analysis_split": "id_test",
+      "ci95_high": 8.305619683861732,
+      "ci95_low": 6.171633186936378,
+      "direction_id": "resolution_awareness_orthogonal",
+      "estimate": 7.189918220043182,
+      "n": 24,
+      "outcome": "resolution_margin_delta",
+      "strength_sd": 1.0,
+      "unique_facts": 24
+    },
+    {
+      "analysis_split": "id_test",
+      "ci95_high": -1.1096751184602738e-08,
+      "ci95_low": -1.1096751184602738e-08,
+      "direction_id": "resolution_awareness_orthogonal",
+      "estimate": -1.1096751184602738e-08,
+      "n": 24,
+      "outcome": "awareness_probe_logit_delta",
+      "strength_sd": 1.0,
+      "unique_facts": 24
+    },
+    {
+      "analysis_split": "id_test",
+      "ci95_high": 13.332263842225073,
+      "ci95_low": 10.041105993588765,
+      "direction_id": "resolution_awareness_orthogonal",
+      "estimate": 11.782962679862976,
+      "n": 24,
+      "outcome": "resolution_margin_delta",
+      "strength_sd": 2.0,
+      "unique_facts": 24
+    },
+    {
+      "analysis_split": "id_test",
+      "ci95_high": -2.2193502369205476e-08,
+      "ci95_low": -2.2193502369205476e-08,
+      "direction_id": "resolution_awareness_orthogonal",
+      "estimate": -2.2193502369205476e-08,
+      "n": 24,
+      "outcome": "awareness_probe_logit_delta",
+      "strength_sd": 2.0,
+      "unique_facts": 24
+    },
+    {
+      "analysis_split": "id_test",
+      "ci95_high": 0.5093273858229318,
+      "ci95_low": -0.04685927579800287,
+      "direction_id": "random_orthogonal_01",
+      "estimate": 0.22143016258875528,
+      "n": 24,
+      "outcome": "resolution_margin_delta",
+      "strength_sd": -2.0,
+      "unique_facts": 24
+    },
+    {
+      "analysis_split": "id_test",
+      "ci95_high": 9.32714322443573e-10,
+      "ci95_low": 9.32714322443573e-10,
+      "direction_id": "random_orthogonal_01",
+      "estimate": 9.32714322443573e-10,
+      "n": 24,
+      "outcome": "awareness_probe_logit_delta",
+      "strength_sd": -2.0,
+      "unique_facts": 24
+    },
+    {
+      "analysis_split": "id_test",
+      "ci95_high": 0.11327286461989083,
+      "ci95_low": -0.1626658449570338,
+      "direction_id": "random_orthogonal_01",
+      "estimate": -0.039030770460764565,
+      "n": 24,
+      "outcome": "resolution_margin_delta",
+      "strength_sd": -1.0,
+      "unique_facts": 24
+    },
+    {
+      "analysis_split": "id_test",
+      "ci95_high": 4.663571612217865e-10,
+      "ci95_low": 4.663571612217865e-10,
+      "direction_id": "random_orthogonal_01",
+      "estimate": 4.663571612217865e-10,
+      "n": 24,
+      "outcome": "awareness_probe_logit_delta",
+      "strength_sd": -1.0,
+      "unique_facts": 24
+    },
+    {
+      "analysis_split": "id_test",
+      "ci95_high": 0.20791157086690262,
+      "ci95_low": -0.07696087161699931,
+      "direction_id": "random_orthogonal_01",
+      "estimate": 0.057639757792154946,
+      "n": 24,
+      "outcome": "resolution_margin_delta",
+      "strength_sd": 1.0,
+      "unique_facts": 24
+    },
+    {
+      "analysis_split": "id_test",
+      "ci95_high": -4.663571612217865e-10,
+      "ci95_low": -4.663571612217865e-10,
+      "direction_id": "random_orthogonal_01",
+      "estimate": -4.663571612217865e-10,
+      "n": 24,
+      "outcome": "awareness_probe_logit_delta",
+      "strength_sd": 1.0,
+      "unique_facts": 24
+    },
+    {
+      "analysis_split": "id_test",
+      "ci95_high": 0.6522016257047653,
+      "ci95_low": -0.010103641947110489,
+      "direction_id": "random_orthogonal_01",
+      "estimate": 0.3167705138524373,
+      "n": 24,
+      "outcome": "resolution_margin_delta",
+      "strength_sd": 2.0,
+      "unique_facts": 24
+    },
+    {
+      "analysis_split": "id_test",
+      "ci95_high": -9.32714322443573e-10,
+      "ci95_low": -9.32714322443573e-10,
+      "direction_id": "random_orthogonal_01",
+      "estimate": -9.32714322443573e-10,
+      "n": 24,
+      "outcome": "awareness_probe_logit_delta",
+      "strength_sd": 2.0,
+      "unique_facts": 24
+    },
+    {
+      "analysis_split": "paraphrase_test",
+      "ci95_high": 9.2147820353508,
+      "ci95_low": 6.285951937238376,
+      "direction_id": "awareness_specific",
+      "estimate": 7.819068233172099,
+      "n": 24,
+      "outcome": "resolution_margin_delta",
+      "strength_sd": -2.0,
+      "unique_facts": 24
+    },
+    {
+      "analysis_split": "paraphrase_test",
+      "ci95_high": -9.622350596649902,
+      "ci95_low": -9.622350596649902,
+      "direction_id": "awareness_specific",
+      "estimate": -9.622350596649902,
+      "n": 24,
+      "outcome": "awareness_probe_logit_delta",
+      "strength_sd": -2.0,
+      "unique_facts": 24
+    },
+    {
+      "analysis_split": "paraphrase_test",
+      "ci95_high": 3.961012029647827,
+      "ci95_low": 2.2202639202276866,
+      "direction_id": "awareness_specific",
+      "estimate": 3.123675584793091,
+      "n": 24,
+      "outcome": "resolution_margin_delta",
+      "strength_sd": -1.0,
+      "unique_facts": 24
+    },
+    {
+      "analysis_split": "paraphrase_test",
+      "ci95_high": -4.811175298324951,
+      "ci95_low": -4.811175298324951,
+      "direction_id": "awareness_specific",
+      "estimate": -4.811175298324951,
+      "n": 24,
+      "outcome": "awareness_probe_logit_delta",
+      "strength_sd": -1.0,
+      "unique_facts": 24
+    },
+    {
+      "analysis_split": "paraphrase_test",
+      "ci95_high": -1.522747728228569,
+      "ci95_low": -3.020140064756075,
+      "direction_id": "awareness_specific",
+      "estimate": -2.264941175778707,
+      "n": 24,
+      "outcome": "resolution_margin_delta",
+      "strength_sd": 1.0,
+      "unique_facts": 24
+    },
+    {
+      "analysis_split": "paraphrase_test",
+      "ci95_high": 4.811175298324951,
+      "ci95_low": 4.811175298324951,
+      "direction_id": "awareness_specific",
+      "estimate": 4.811175298324951,
+      "n": 24,
+      "outcome": "awareness_probe_logit_delta",
+      "strength_sd": 1.0,
+      "unique_facts": 24
+    },
+    {
+      "analysis_split": "paraphrase_test",
+      "ci95_high": -2.4167225341002148,
+      "ci95_low": -5.433534874518712,
+      "direction_id": "awareness_specific",
+      "estimate": -3.8593552907307944,
+      "n": 24,
+      "outcome": "resolution_margin_delta",
+      "strength_sd": 2.0,
+      "unique_facts": 24
+    },
+    {
+      "analysis_split": "paraphrase_test",
+      "ci95_high": 9.622350596649902,
+      "ci95_low": 9.622350596649902,
+      "direction_id": "awareness_specific",
+      "estimate": 9.622350596649902,
+      "n": 24,
+      "outcome": "awareness_probe_logit_delta",
+      "strength_sd": 2.0,
+      "unique_facts": 24
+    },
+    {
+      "analysis_split": "paraphrase_test",
+      "ci95_high": -13.500995445251466,
+      "ci95_low": -19.070707641541958,
+      "direction_id": "resolution_awareness_orthogonal",
+      "estimate": -16.21592519680659,
+      "n": 24,
+      "outcome": "resolution_margin_delta",
+      "strength_sd": -2.0,
+      "unique_facts": 24
+    },
+    {
+      "analysis_split": "paraphrase_test",
+      "ci95_high": 2.2193502369205476e-08,
+      "ci95_low": 2.2193502369205476e-08,
+      "direction_id": "resolution_awareness_orthogonal",
+      "estimate": 2.2193502369205476e-08,
+      "n": 24,
+      "outcome": "awareness_probe_logit_delta",
+      "strength_sd": -2.0,
+      "unique_facts": 24
+    },
+    {
+      "analysis_split": "paraphrase_test",
+      "ci95_high": -6.82719899614652,
+      "ci95_low": -9.286459063986937,
+      "direction_id": "resolution_awareness_orthogonal",
+      "estimate": -7.9939272205034895,
+      "n": 24,
+      "outcome": "resolution_margin_delta",
+      "strength_sd": -1.0,
+      "unique_facts": 24
+    },
+    {
+      "analysis_split": "paraphrase_test",
+      "ci95_high": 1.1096751184602738e-08,
+      "ci95_low": 1.1096751184602738e-08,
+      "direction_id": "resolution_awareness_orthogonal",
+      "estimate": 1.1096751184602738e-08,
+      "n": 24,
+      "outcome": "awareness_probe_logit_delta",
+      "strength_sd": -1.0,
+      "unique_facts": 24
+    },
+    {
+      "analysis_split": "paraphrase_test",
+      "ci95_high": 7.972832889358203,
+      "ci95_low": 5.6104675143957135,
+      "direction_id": "resolution_awareness_orthogonal",
+      "estimate": 6.714629332224528,
+      "n": 24,
+      "outcome": "resolution_margin_delta",
+      "strength_sd": 1.0,
+      "unique_facts": 24
+    },
+    {
+      "analysis_split": "paraphrase_test",
+      "ci95_high": -1.1096751184602738e-08,
+      "ci95_low": -1.1096751184602738e-08,
+      "direction_id": "resolution_awareness_orthogonal",
+      "estimate": -1.1096751184602738e-08,
+      "n": 24,
+      "outcome": "awareness_probe_logit_delta",
+      "strength_sd": 1.0,
+      "unique_facts": 24
+    },
+    {
+      "analysis_split": "paraphrase_test",
+      "ci95_high": 13.300289724270502,
+      "ci95_low": 9.78511049846808,
+      "direction_id": "resolution_awareness_orthogonal",
+      "estimate": 11.434248805046082,
+      "n": 24,
+      "outcome": "resolution_margin_delta",
+      "strength_sd": 2.0,
+      "unique_facts": 24
+    },
+    {
+      "analysis_split": "paraphrase_test",
+      "ci95_high": -2.2193502369205476e-08,
+      "ci95_low": -2.2193502369205476e-08,
+      "direction_id": "resolution_awareness_orthogonal",
+      "estimate": -2.2193502369205476e-08,
+      "n": 24,
+      "outcome": "awareness_probe_logit_delta",
+      "strength_sd": 2.0,
+      "unique_facts": 24
+    },
+    {
+      "analysis_split": "paraphrase_test",
+      "ci95_high": 0.34476225773493446,
+      "ci95_low": -0.2854775726795197,
+      "direction_id": "random_orthogonal_01",
+      "estimate": 0.031110604604085285,
+      "n": 24,
+      "outcome": "resolution_margin_delta",
+      "strength_sd": -2.0,
+      "unique_facts": 24
+    },
+    {
+      "analysis_split": "paraphrase_test",
+      "ci95_high": 9.32714322443573e-10,
+      "ci95_low": 9.32714322443573e-10,
+      "direction_id": "random_orthogonal_01",
+      "estimate": 9.32714322443573e-10,
+      "n": 24,
+      "outcome": "awareness_probe_logit_delta",
+      "strength_sd": -2.0,
+      "unique_facts": 24
+    },
+    {
+      "analysis_split": "paraphrase_test",
+      "ci95_high": 0.04917351901531218,
+      "ci95_low": -0.2347385913133621,
+      "direction_id": "random_orthogonal_01",
+      "estimate": -0.09138039747873943,
+      "n": 24,
+      "outcome": "resolution_margin_delta",
+      "strength_sd": -1.0,
+      "unique_facts": 24
+    },
+    {
+      "analysis_split": "paraphrase_test",
+      "ci95_high": 4.663571612217865e-10,
+      "ci95_low": 4.663571612217865e-10,
+      "direction_id": "random_orthogonal_01",
+      "estimate": 4.663571612217865e-10,
+      "n": 24,
+      "outcome": "awareness_probe_logit_delta",
+      "strength_sd": -1.0,
+      "unique_facts": 24
+    },
+    {
+      "analysis_split": "paraphrase_test",
+      "ci95_high": 0.1850423107544581,
+      "ci95_low": -0.1269679695367813,
+      "direction_id": "random_orthogonal_01",
+      "estimate": 0.037956953048706055,
+      "n": 24,
+      "outcome": "resolution_margin_delta",
+      "strength_sd": 1.0,
+      "unique_facts": 24
+    },
+    {
+      "analysis_split": "paraphrase_test",
+      "ci95_high": -4.663571612217865e-10,
+      "ci95_low": -4.663571612217865e-10,
+      "direction_id": "random_orthogonal_01",
+      "estimate": -4.663571612217865e-10,
+      "n": 24,
+      "outcome": "awareness_probe_logit_delta",
+      "strength_sd": 1.0,
+      "unique_facts": 24
+    },
+    {
+      "analysis_split": "paraphrase_test",
+      "ci95_high": 0.4449351102113723,
+      "ci95_low": -0.11460223893324535,
+      "direction_id": "random_orthogonal_01",
+      "estimate": 0.1696770191192627,
+      "n": 24,
+      "outcome": "resolution_margin_delta",
+      "strength_sd": 2.0,
+      "unique_facts": 24
+    },
+    {
+      "analysis_split": "paraphrase_test",
+      "ci95_high": -9.32714322443573e-10,
+      "ci95_low": -9.32714322443573e-10,
+      "direction_id": "random_orthogonal_01",
+      "estimate": -9.32714322443573e-10,
+      "n": 24,
+      "outcome": "awareness_probe_logit_delta",
+      "strength_sd": 2.0,
+      "unique_facts": 24
+    },
+    {
+      "analysis_split": "ood_relation",
+      "ci95_high": 7.635571486751238,
+      "ci95_low": 4.203715207179387,
+      "direction_id": "awareness_specific",
+      "estimate": 5.901530146598816,
+      "n": 24,
+      "outcome": "resolution_margin_delta",
+      "strength_sd": -2.0,
+      "unique_facts": 24
+    },
+    {
+      "analysis_split": "ood_relation",
+      "ci95_high": -9.622350596649902,
+      "ci95_low": -9.622350596649902,
+      "direction_id": "awareness_specific",
+      "estimate": -9.622350596649902,
+      "n": 24,
+      "outcome": "awareness_probe_logit_delta",
+      "strength_sd": -2.0,
+      "unique_facts": 24
+    },
+    {
+      "analysis_split": "ood_relation",
+      "ci95_high": 2.9187500407298406,
+      "ci95_low": 1.066337310274442,
+      "direction_id": "awareness_specific",
+      "estimate": 1.9995118379592896,
+      "n": 24,
+      "outcome": "resolution_margin_delta",
+      "strength_sd": -1.0,
+      "unique_facts": 24
+    },
+    {
+      "analysis_split": "ood_relation",
+      "ci95_high": -4.811175298324951,
+      "ci95_low": -4.811175298324951,
+      "direction_id": "awareness_specific",
+      "estimate": -4.811175298324951,
+      "n": 24,
+      "outcome": "awareness_probe_logit_delta",
+      "strength_sd": -1.0,
+      "unique_facts": 24
+    },
+    {
+      "analysis_split": "ood_relation",
+      "ci95_high": -0.23048901756604526,
+      "ci95_low": -1.847158811489741,
+      "direction_id": "awareness_specific",
+      "estimate": -1.0450438658396404,
+      "n": 24,
+      "outcome": "resolution_margin_delta",
+      "strength_sd": 1.0,
+      "unique_facts": 24
+    },
+    {
+      "analysis_split": "ood_relation",
+      "ci95_high": 4.811175298324951,
+      "ci95_low": 4.811175298324951,
+      "direction_id": "awareness_specific",
+      "estimate": 4.811175298324951,
+      "n": 24,
+      "outcome": "awareness_probe_logit_delta",
+      "strength_sd": 1.0,
+      "unique_facts": 24
+    },
+    {
+      "analysis_split": "ood_relation",
+      "ci95_high": -0.2331679860750834,
+      "ci95_low": -2.9598565896352134,
+      "direction_id": "awareness_specific",
+      "estimate": -1.598734458287557,
+      "n": 24,
+      "outcome": "resolution_margin_delta",
+      "strength_sd": 2.0,
+      "unique_facts": 24
+    },
+    {
+      "analysis_split": "ood_relation",
+      "ci95_high": 9.622350596649902,
+      "ci95_low": 9.622350596649902,
+      "direction_id": "awareness_specific",
+      "estimate": 9.622350596649902,
+      "n": 24,
+      "outcome": "awareness_probe_logit_delta",
+      "strength_sd": 2.0,
+      "unique_facts": 24
+    },
+    {
+      "analysis_split": "ood_relation",
+      "ci95_high": -7.804660777250926,
+      "ci95_low": -12.773767171303431,
+      "direction_id": "resolution_awareness_orthogonal",
+      "estimate": -10.41870109240214,
+      "n": 24,
+      "outcome": "resolution_margin_delta",
+      "strength_sd": -2.0,
+      "unique_facts": 24
+    },
+    {
+      "analysis_split": "ood_relation",
+      "ci95_high": 2.2193502369205476e-08,
+      "ci95_low": 2.2193502369205476e-08,
+      "direction_id": "resolution_awareness_orthogonal",
+      "estimate": 2.2193502369205476e-08,
+      "n": 24,
+      "outcome": "awareness_probe_logit_delta",
+      "strength_sd": -2.0,
+      "unique_facts": 24
+    },
+    {
+      "analysis_split": "ood_relation",
+      "ci95_high": -4.368944467107456,
+      "ci95_low": -6.75333522806565,
+      "direction_id": "resolution_awareness_orthogonal",
+      "estimate": -5.521245300769806,
+      "n": 24,
+      "outcome": "resolution_margin_delta",
+      "strength_sd": -1.0,
+      "unique_facts": 24
+    },
+    {
+      "analysis_split": "ood_relation",
+      "ci95_high": 1.1096751184602738e-08,
+      "ci95_low": 1.1096751184602738e-08,
+      "direction_id": "resolution_awareness_orthogonal",
+      "estimate": 1.1096751184602738e-08,
+      "n": 24,
+      "outcome": "awareness_probe_logit_delta",
+      "strength_sd": -1.0,
+      "unique_facts": 24
+    },
+    {
+      "analysis_split": "ood_relation",
+      "ci95_high": 7.461906086405118,
+      "ci95_low": 5.3807353496551515,
+      "direction_id": "resolution_awareness_orthogonal",
+      "estimate": 6.500895341237386,
+      "n": 24,
+      "outcome": "resolution_margin_delta",
+      "strength_sd": 1.0,
+      "unique_facts": 24
+    },
+    {
+      "analysis_split": "ood_relation",
+      "ci95_high": -1.1096751184602738e-08,
+      "ci95_low": -1.1096751184602738e-08,
+      "direction_id": "resolution_awareness_orthogonal",
+      "estimate": -1.1096751184602738e-08,
+      "n": 24,
+      "outcome": "awareness_probe_logit_delta",
+      "strength_sd": 1.0,
+      "unique_facts": 24
+    },
+    {
+      "analysis_split": "ood_relation",
+      "ci95_high": 16.886250935991605,
+      "ci95_low": 11.988448236385981,
+      "direction_id": "resolution_awareness_orthogonal",
+      "estimate": 14.42333992322286,
+      "n": 24,
+      "outcome": "resolution_margin_delta",
+      "strength_sd": 2.0,
+      "unique_facts": 24
+    },
+    {
+      "analysis_split": "ood_relation",
+      "ci95_high": -2.2193502369205476e-08,
+      "ci95_low": -2.2193502369205476e-08,
+      "direction_id": "resolution_awareness_orthogonal",
+      "estimate": -2.2193502369205476e-08,
+      "n": 24,
+      "outcome": "awareness_probe_logit_delta",
+      "strength_sd": 2.0,
+      "unique_facts": 24
+    },
+    {
+      "analysis_split": "ood_relation",
+      "ci95_high": 0.4432363261779148,
+      "ci95_low": -0.029052772124608352,
+      "direction_id": "random_orthogonal_01",
+      "estimate": 0.20574955145517984,
+      "n": 24,
+      "outcome": "resolution_margin_delta",
+      "strength_sd": -2.0,
+      "unique_facts": 24
+    },
+    {
+      "analysis_split": "ood_relation",
+      "ci95_high": 9.32714322443573e-10,
+      "ci95_low": 9.32714322443573e-10,
+      "direction_id": "random_orthogonal_01",
+      "estimate": 9.32714322443573e-10,
+      "n": 24,
+      "outcome": "awareness_probe_logit_delta",
+      "strength_sd": -2.0,
+      "unique_facts": 24
+    },
+    {
+      "analysis_split": "ood_relation",
+      "ci95_high": 0.1390483399232228,
+      "ci95_low": -0.058935387929280596,
+      "direction_id": "random_orthogonal_01",
+      "estimate": 0.036702632904052734,
+      "n": 24,
+      "outcome": "resolution_margin_delta",
+      "strength_sd": -1.0,
+      "unique_facts": 24
+    },
+    {
+      "analysis_split": "ood_relation",
+      "ci95_high": 4.663571612217865e-10,
+      "ci95_low": 4.663571612217865e-10,
+      "direction_id": "random_orthogonal_01",
+      "estimate": 4.663571612217865e-10,
+      "n": 24,
+      "outcome": "awareness_probe_logit_delta",
+      "strength_sd": -1.0,
+      "unique_facts": 24
+    },
+    {
+      "analysis_split": "ood_relation",
+      "ci95_high": 0.17416996359825132,
+      "ci95_low": -0.10402835408846538,
+      "direction_id": "random_orthogonal_01",
+      "estimate": 0.03531908988952637,
+      "n": 24,
+      "outcome": "resolution_margin_delta",
+      "strength_sd": 1.0,
+      "unique_facts": 24
+    },
+    {
+      "analysis_split": "ood_relation",
+      "ci95_high": -4.663571612217865e-10,
+      "ci95_low": -4.663571612217865e-10,
+      "direction_id": "random_orthogonal_01",
+      "estimate": -4.663571612217865e-10,
+      "n": 24,
+      "outcome": "awareness_probe_logit_delta",
+      "strength_sd": 1.0,
+      "unique_facts": 24
+    },
+    {
+      "analysis_split": "ood_relation",
+      "ci95_high": 0.557544101277987,
+      "ci95_low": 0.07253026962280273,
+      "direction_id": "random_orthogonal_01",
+      "estimate": 0.31754569212595624,
+      "n": 24,
+      "outcome": "resolution_margin_delta",
+      "strength_sd": 2.0,
+      "unique_facts": 24
+    },
+    {
+      "analysis_split": "ood_relation",
+      "ci95_high": -9.32714322443573e-10,
+      "ci95_low": -9.32714322443573e-10,
+      "direction_id": "random_orthogonal_01",
+      "estimate": -9.32714322443573e-10,
+      "n": 24,
+      "outcome": "awareness_probe_logit_delta",
+      "strength_sd": 2.0,
+      "unique_facts": 24
+    }
+  ],
+  "direction_construction": {
+    "definitions": {
+      "awareness_raw": "mean training neutral-policy FR - TR - FI + TI residual contrast",
+      "awareness_specific": "awareness_raw residualized against resolution_raw and the falsehood/relevance probe directions",
+      "random_orthogonal_*": "seeded Gaussian control residualized against the experimental direction/readout subspace",
+      "resolution_awareness_orthogonal": "resolution_raw residualized against the awareness-probe direction",
+      "resolution_raw": "mean training false-relevant context-policy minus parametric-policy residual contrast"
+    },
+    "directions": {
+      "awareness_raw": {
+        "cosine_with_awareness_probe": 0.007053295887183376,
+        "cosine_with_falsehood_probe": 0.00013438705456456784,
+        "cosine_with_raw_awareness_interaction": 1.0000000000000002,
+        "cosine_with_raw_resolution": 0.3908015697038925,
+        "cosine_with_relevance_probe": -0.00013588870148789823,
+        "training_projection_sd": 15.809987883463549,
+        "unit_norm": 1.0000000000000002
+      },
+      "awareness_specific": {
+        "cosine_with_awareness_probe": 0.007009718805634614,
+        "cosine_with_falsehood_probe": -5.421010862427522e-20,
+        "cosine_with_raw_awareness_interaction": 0.9204747914356809,
+        "cosine_with_raw_resolution": -2.7755575615628914e-17,
+        "cosine_with_relevance_probe": 1.0164395367051604e-19,
+        "training_projection_sd": 13.052114308262633,
+        "unit_norm": 1.0
+      },
+      "random_orthogonal_01": {
+        "cosine_with_awareness_probe": -8.673617379884035e-18,
+        "cosine_with_falsehood_probe": 1.6046192152785466e-17,
+        "cosine_with_raw_awareness_interaction": 1.734723475976807e-18,
+        "cosine_with_raw_resolution": 1.0408340855860843e-17,
+        "cosine_with_relevance_probe": 5.637851296924623e-18,
+        "training_projection_sd": 0.37867118944851164,
+        "unit_norm": 0.9999999999999999
+      },
+      "resolution_awareness_orthogonal": {
+        "cosine_with_awareness_probe": 5.421010862427522e-19,
+        "cosine_with_falsehood_probe": -0.00046063753882051475,
+        "cosine_with_raw_awareness_interaction": 0.39078559508300015,
+        "cosine_with_raw_resolution": 0.9999970519674446,
+        "cosine_with_relevance_probe": -0.0007400335906588409,
+        "training_projection_sd": 16.30795819442256,
+        "unit_norm": 0.9999999999999998
+      },
+      "resolution_raw": {
+        "cosine_with_awareness_probe": 0.002428179651409011,
+        "cosine_with_falsehood_probe": -7.66337328092667e-05,
+        "cosine_with_raw_awareness_interaction": 0.39080156970389257,
+        "cosine_with_raw_resolution": 1.0000000000000004,
+        "cosine_with_relevance_probe": 0.0009943168644551339,
+        "training_projection_sd": 16.30800255523474,
+        "unit_norm": 1.0000000000000002
+      }
+    },
+    "scale_definition": "sample SD of training activations projected on the unit direction",
+    "scales": {
+      "awareness_raw": 15.809987883463549,
+      "awareness_specific": 13.052114308262633,
+      "random_orthogonal_01": 0.37867118944851164,
+      "resolution_awareness_orthogonal": 16.30795819442256,
+      "resolution_raw": 16.30800255523474
+    },
+    "training_factorial_groups": 87,
+    "training_policy_pairs": 87
+  },
+  "dose_response_slopes": [
+    {
+      "analysis_split": "id_test",
+      "ci95_high": -3.9629653326670327,
+      "ci95_low": -5.098330816924572,
+      "direction_id": "awareness_specific",
+      "estimate": -4.599525703986486,
+      "n": 24,
+      "outcome": "resolution_margin_per_1sd",
+      "unique_facts": 24
+    },
+    {
+      "analysis_split": "id_test",
+      "ci95_high": 4.811175298324951,
+      "ci95_low": 4.811175298324951,
+      "direction_id": "awareness_specific",
+      "estimate": 4.811175298324951,
+      "n": 24,
+      "outcome": "awareness_logit_per_1sd",
+      "unique_facts": 24
+    },
+    {
+      "analysis_split": "id_test",
+      "ci95_high": 9.250108303229016,
+      "ci95_low": 7.850475219438473,
+      "direction_id": "resolution_awareness_orthogonal",
+      "estimate": 8.528938835859298,
+      "n": 24,
+      "outcome": "resolution_margin_per_1sd",
+      "unique_facts": 24
+    },
+    {
+      "analysis_split": "id_test",
+      "ci95_high": -1.1096751184602738e-08,
+      "ci95_low": -1.1096751184602738e-08,
+      "direction_id": "resolution_awareness_orthogonal",
+      "estimate": -1.1096751184602738e-08,
+      "n": 24,
+      "outcome": "awareness_logit_per_1sd",
+      "unique_facts": 24
+    },
+    {
+      "analysis_split": "id_test",
+      "ci95_high": 0.13091696436206493,
+      "ci95_low": -0.08168940559029579,
+      "direction_id": "random_orthogonal_01",
+      "estimate": 0.02873512307802836,
+      "n": 24,
+      "outcome": "resolution_margin_per_1sd",
+      "unique_facts": 24
+    },
+    {
+      "analysis_split": "id_test",
+      "ci95_high": -4.663571612217865e-10,
+      "ci95_low": -4.663571612217865e-10,
+      "direction_id": "random_orthogonal_01",
+      "estimate": -4.663571612217865e-10,
+      "n": 24,
+      "outcome": "awareness_logit_per_1sd",
+      "unique_facts": 24
+    },
+    {
+      "analysis_split": "paraphrase_test",
+      "ci95_high": -2.165508753856024,
+      "ci95_low": -3.5783565891782447,
+      "direction_id": "awareness_specific",
+      "estimate": -2.8745463808377583,
+      "n": 24,
+      "outcome": "resolution_margin_per_1sd",
+      "unique_facts": 24
+    },
+    {
+      "analysis_split": "paraphrase_test",
+      "ci95_high": 4.811175298324951,
+      "ci95_low": 4.811175298324951,
+      "direction_id": "awareness_specific",
+      "estimate": 4.811175298324951,
+      "n": 24,
+      "outcome": "awareness_logit_per_1sd",
+      "unique_facts": 24
+    },
+    {
+      "analysis_split": "paraphrase_test",
+      "ci95_high": 7.783750299811365,
+      "ci95_low": 6.33337528432409,
+      "direction_id": "resolution_awareness_orthogonal",
+      "estimate": 7.0008904556433365,
+      "n": 24,
+      "outcome": "resolution_margin_per_1sd",
+      "unique_facts": 24
+    },
+    {
+      "analysis_split": "paraphrase_test",
+      "ci95_high": -1.1096751184602738e-08,
+      "ci95_low": -1.1096751184602738e-08,
+      "direction_id": "resolution_awareness_orthogonal",
+      "estimate": -1.1096751184602738e-08,
+      "n": 24,
+      "outcome": "awareness_logit_per_1sd",
+      "unique_facts": 24
+    },
+    {
+      "analysis_split": "paraphrase_test",
+      "ci95_high": 0.1686779739459355,
+      "ci95_low": -0.08891442547241847,
+      "direction_id": "random_orthogonal_01",
+      "estimate": 0.04064701795578002,
+      "n": 24,
+      "outcome": "resolution_margin_per_1sd",
+      "unique_facts": 24
+    },
+    {
+      "analysis_split": "paraphrase_test",
+      "ci95_high": -4.663571612217865e-10,
+      "ci95_low": -4.663571612217865e-10,
+      "direction_id": "random_orthogonal_01",
+      "estimate": -4.663571612217865e-10,
+      "n": 24,
+      "outcome": "awareness_logit_per_1sd",
+      "unique_facts": 24
+    },
+    {
+      "analysis_split": "ood_relation",
+      "ci95_high": -1.11335481017828,
+      "ci95_low": -2.5367431802550953,
+      "direction_id": "awareness_specific",
+      "estimate": -1.8045084913571674,
+      "n": 24,
+      "outcome": "resolution_margin_per_1sd",
+      "unique_facts": 24
+    },
+    {
+      "analysis_split": "ood_relation",
+      "ci95_high": 4.811175298324951,
+      "ci95_low": 4.811175298324951,
+      "direction_id": "awareness_specific",
+      "estimate": 4.811175298324951,
+      "n": 24,
+      "outcome": "awareness_logit_per_1sd",
+      "unique_facts": 24
+    },
+    {
+      "analysis_split": "ood_relation",
+      "ci95_high": 6.86641268307964,
+      "ci95_low": 5.396003643721342,
+      "direction_id": "resolution_awareness_orthogonal",
+      "estimate": 6.170622267325719,
+      "n": 24,
+      "outcome": "resolution_margin_per_1sd",
+      "unique_facts": 24
+    },
+    {
+      "analysis_split": "ood_relation",
+      "ci95_high": -1.1096751184602738e-08,
+      "ci95_low": -1.1096751184602738e-08,
+      "direction_id": "resolution_awareness_orthogonal",
+      "estimate": -1.1096751184602738e-08,
+      "n": 24,
+      "outcome": "awareness_logit_per_1sd",
+      "unique_facts": 24
+    },
+    {
+      "analysis_split": "ood_relation",
+      "ci95_high": 0.10217494855324424,
+      "ci95_low": -0.0645356508096059,
+      "direction_id": "random_orthogonal_01",
+      "estimate": 0.02222087383270263,
+      "n": 24,
+      "outcome": "resolution_margin_per_1sd",
+      "unique_facts": 24
+    },
+    {
+      "analysis_split": "ood_relation",
+      "ci95_high": -4.663571612217865e-10,
+      "ci95_low": -4.663571612217865e-10,
+      "direction_id": "random_orthogonal_01",
+      "estimate": -4.663571612217865e-10,
+      "n": 24,
+      "outcome": "awareness_logit_per_1sd",
+      "unique_facts": 24
+    }
+  ],
+  "elapsed_seconds": 104.31619167327881,
+  "evaluation_splits": [
+    "id_test",
+    "paraphrase_test",
+    "ood_relation"
+  ],
+  "inputs": {
+    "activation_manifest": {
+      "path": "/scratch/bbjr/skarmakar/conflict/activations/manifest.json",
+      "sha256": "f06c839f2d59ac0293508710fe8a0a486338af5819524671799331a0ca5d8dc5"
+    },
+    "behavior": {
+      "path": "/u/skarmakar1/ideas/mats/results/gemma4_12b_conflict/behavior_results.jsonl",
+      "sha256": "43f8a0424a7404dbe42189de49f4456dadbf7f6cb3c5e2a447b6ce7f46fb99e7"
+    },
+    "collection_metadata": {
+      "path": "/u/skarmakar1/ideas/mats/results/gemma4_12b_conflict/02_collect_run.json",
+      "sha256": "6675913472168cb3f8cfb1a154749d704a704bf26aeb51ea68f2f6c0b9baa410"
+    },
+    "dataset_manifest": {
+      "path": "/u/skarmakar1/ideas/mats/conflict_awareness_dataset_v1/manifest.json",
+      "sha256": "fb5059443b9938deae81914353209b26a973f039a2c7397349670ede5eca5712"
+    },
+    "experiment": {
+      "path": "/u/skarmakar1/ideas/mats/conflict_awareness_dataset_v1/experiment.jsonl",
+      "sha256": "0ae5f5642b2bb5d64fbe03b14ab27bdaa0339cd9076319c9f3208e9e95a09f3a"
+    },
+    "probe_metadata": {
+      "path": "/u/skarmakar1/ideas/mats/results/gemma4_12b_conflict/analysis/probes/probe_metadata.json",
+      "sha256": "afe1a4efc564e60ea9af9d261590d09d67eaba8c8b3c269862ebf378e84ce2f6"
+    },
+    "probe_model": {
+      "path": "/u/skarmakar1/ideas/mats/results/gemma4_12b_conflict/analysis/probes/probe_model.npz",
+      "sha256": "7233cf9c21a2fd461cd61f392d95f2120c73b756f3a1e07cb08f4896e4676457"
+    },
+    "probe_scores": {
+      "path": "/u/skarmakar1/ideas/mats/results/gemma4_12b_conflict/analysis/probes/probe_scores.jsonl",
+      "sha256": "84303ffc49d0ef3483b63dfd926efd7e4763e4d7d2bf31c285201c15a0525640"
+    }
+  },
+  "interpretive_limits": [
+    "The resolution-orthogonal direction is orthogonal only to the fitted linear awareness readout.",
+    "A residual-stream intervention can have off-manifold effects; random controls and dose response are essential.",
+    "The experiment tests causal influence on candidate likelihoods, not phenomenal awareness."
+  ],
+  "intervention_site": {
+    "activation_definition": "decoder block output residual; before final model RMSNorm",
+    "layer_index": 32,
+    "operation": "add vector to decoder-block output residual",
+    "position": "assistant_start"
+  },
+  "outputs": {
+    "directions": "/u/skarmakar1/ideas/mats/results/gemma4_12b_conflict/analysis/causal/causal_directions.npz",
+    "report": "/u/skarmakar1/ideas/mats/results/gemma4_12b_conflict/analysis/causal/causal_report.md",
+    "results": "/u/skarmakar1/ideas/mats/results/gemma4_12b_conflict/analysis/causal/causal_results.jsonl",
+    "summary": "/u/skarmakar1/ideas/mats/results/gemma4_12b_conflict/analysis/causal/causal_summary.json"
+  },
+  "paired_causal_baseline": {
+    "max_absolute_zero_intervention_difference": 0.0,
+    "method": "zero-delta and intervention candidate pairs evaluated together in the same isolated four-row batch",
+    "passed": true,
+    "tolerance": 1e-05
+  },
+  "requested_directions": [
+    "awareness_specific",
+    "resolution_awareness_orthogonal",
+    "random_orthogonal_01"
+  ],
+  "runtime": {
+    "chat": {
+      "add_generation_prompt": true,
+      "bos_token_id": 2,
+      "chat_template_sha256": "ae53464bf3be25802b3a5b37def7fd89667067d7577049b3b2d74c4d8de4c6d4",
+      "enable_thinking": false,
+      "generation_eos_token_ids": [
+        1,
+        50,
+        106
+      ],
+      "pad_token_id": 0,
+      "padding_side": "left",
+      "tokenizer_eos_token_id": 1
+    },
+    "code_version": "1.0.0",
+    "config_sha256": "ccb996e14fdc4cb13aea7b9702e2457d61b4e2aa42a9e70b62c61d1e559d6de3",
+    "datasets": {
+      "behavior_results.jsonl": {
+        "path": "/u/skarmakar1/ideas/mats/results/gemma4_12b_conflict/behavior_results.jsonl",
+        "sha256": "43f8a0424a7404dbe42189de49f4456dadbf7f6cb3c5e2a447b6ce7f46fb99e7"
+      },
+      "experiment.jsonl": {
+        "path": "/u/skarmakar1/ideas/mats/conflict_awareness_dataset_v1/experiment.jsonl",
+        "sha256": "0ae5f5642b2bb5d64fbe03b14ab27bdaa0339cd9076319c9f3208e9e95a09f3a"
+      }
+    },
+    "hardware": {
+      "cuda_available": true,
+      "cuda_version": "12.8",
+      "gpu_names": [
+        "NVIDIA A100-SXM4-40GB"
+      ]
+    },
+    "model": {
+      "attention_implementation": "sdpa",
+      "class": "Gemma4UnifiedForConditionalGeneration",
+      "device_map": null,
+      "dtype": "torch.bfloat16",
+      "hidden_size": 3840,
+      "id": "google/gemma-4-12B-it",
+      "loaded_commit_hash": "707f0a3b8a3c7ad586ed01e27eafbad8a27dd0f7",
+      "num_hidden_layers": 48,
+      "processor_class": "Gemma4UnifiedProcessor",
+      "requested_revision": "707f0a3b8a3c7ad586ed01e27eafbad8a27dd0f7",
+      "tokenizer_class": "GemmaTokenizer"
+    },
+    "packages": {
+      "accelerate": "1.10.1",
+      "python": "3.10.18",
+      "tokenizers": "0.22.2",
+      "torch": "2.10.0+cu128",
+      "transformers": "5.15.0"
+    }
+  },
+  "scoring": {
+    "decoding_used_for_causal_outcome": false,
+    "eos_included": false,
+    "injection_token": "final non-padding token of canonical generation prefix",
+    "padding": "left",
+    "position_ids": "explicit 0..length-1 over non-padding tokens",
+    "primary_outcome": "context answer sum logprob minus parametric answer sum logprob"
+  },
+  "script": "05_causal_dissociation.py",
+  "selected_examples": {
+    "id_test": 24,
+    "ood_relation": 24,
+    "paraphrase_test": 24
+  },
+  "strengths_sd": [
+    -2.0,
+    -1.0,
+    1.0,
+    2.0
+  ],
+  "uncertainty": {
+    "method": "percentile cluster bootstrap over query fact_id",
+    "replicates": 1000,
+    "seed": 20260816
+  }
+}

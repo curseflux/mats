@@ -1,0 +1,238 @@
+{
+  "activation": {
+    "definition": "decoder block output residual; before final model RMSNorm",
+    "hidden_size": 3840,
+    "storage_dtype": "float16"
+  },
+  "analysis_version": "1.0.0",
+  "elapsed_seconds": 201.74960923194885,
+  "factorized_baseline": "falsehood_probe_probability * relevance_probe_probability",
+  "inputs": {
+    "activation_input_signature": "840eaf7809c4c5124aa3125254abb1338f9b3cf561e4d5c01f42db48a0f32ea0",
+    "activation_manifest": "/scratch/bbjr/skarmakar/conflict/activations/manifest.json",
+    "activation_manifest_sha256": "f06c839f2d59ac0293508710fe8a0a486338af5819524671799331a0ca5d8dc5",
+    "behavior": "/scratch/bbjr/skarmakar/conflict/behavior_results.jsonl",
+    "behavior_sha256": "43f8a0424a7404dbe42189de49f4456dadbf7f6cb3c5e2a447b6ce7f46fb99e7"
+  },
+  "models": {
+    "awareness": {
+      "class_weight": "balanced",
+      "converged_before_max_iter": true,
+      "dual": true,
+      "label_field": "effective_query_conflict",
+      "n_iter": 19,
+      "penalty": "l2",
+      "selected_C": 0.001,
+      "solver": "liblinear",
+      "validation_trials": [
+        {
+          "C": 0.001,
+          "auc": 0.9986831275720164,
+          "auc_policy_context": 1.0,
+          "auc_policy_neutral": 0.9996296296296296,
+          "auc_policy_parametric": 0.9996296296296296,
+          "auc_within_false": 0.9964197530864197,
+          "auc_within_relevant": 0.9996296296296296,
+          "robust_auc": 0.9964197530864197
+        },
+        {
+          "C": 0.01,
+          "auc": 0.9974485596707818,
+          "auc_policy_context": 1.0,
+          "auc_policy_neutral": 1.0,
+          "auc_policy_parametric": 0.9992592592592592,
+          "auc_within_false": 0.9948148148148148,
+          "auc_within_relevant": 0.9979012345679013,
+          "robust_auc": 0.9948148148148148
+        },
+        {
+          "C": 0.1,
+          "auc": 0.9974897119341564,
+          "auc_policy_context": 1.0,
+          "auc_policy_neutral": 1.0,
+          "auc_policy_parametric": 0.9981481481481481,
+          "auc_within_false": 0.9940740740740741,
+          "auc_within_relevant": 0.9988888888888888,
+          "robust_auc": 0.9940740740740741
+        },
+        {
+          "C": 1.0,
+          "auc": 0.997119341563786,
+          "auc_policy_context": 1.0,
+          "auc_policy_neutral": 1.0,
+          "auc_policy_parametric": 0.997037037037037,
+          "auc_within_false": 0.9925925925925925,
+          "auc_within_relevant": 0.9995061728395063,
+          "robust_auc": 0.9925925925925925
+        },
+        {
+          "C": 10.0,
+          "auc": 0.9962551440329218,
+          "auc_policy_context": 1.0,
+          "auc_policy_neutral": 0.9992592592592593,
+          "auc_policy_parametric": 0.9955555555555555,
+          "auc_within_false": 0.9906172839506173,
+          "auc_within_relevant": 0.9995061728395063,
+          "robust_auc": 0.9906172839506173
+        }
+      ]
+    },
+    "falsehood": {
+      "class_weight": "balanced",
+      "converged_before_max_iter": true,
+      "dual": true,
+      "label_field": "claim_conflict_label",
+      "n_iter": 139,
+      "penalty": "l2",
+      "selected_C": 0.01,
+      "solver": "liblinear",
+      "validation_trials": [
+        {
+          "C": 0.001,
+          "auc": 0.9894135802469135
+        },
+        {
+          "C": 0.01,
+          "auc": 0.9908950617283949
+        },
+        {
+          "C": 0.1,
+          "auc": 0.9812654320987654
+        },
+        {
+          "C": 1.0,
+          "auc": 0.9609567901234568
+        },
+        {
+          "C": 10.0,
+          "auc": 0.9520061728395062
+        }
+      ]
+    },
+    "relevance": {
+      "class_weight": "balanced",
+      "converged_before_max_iter": true,
+      "dual": true,
+      "label_field": "claim_is_query_relevant",
+      "n_iter": 33,
+      "penalty": "l2",
+      "selected_C": 0.1,
+      "solver": "liblinear",
+      "validation_trials": [
+        {
+          "C": 0.001,
+          "auc": 0.9998765432098765
+        },
+        {
+          "C": 0.01,
+          "auc": 0.9999382716049383
+        },
+        {
+          "C": 0.1,
+          "auc": 0.9999691358024692
+        },
+        {
+          "C": 1.0,
+          "auc": 0.9999691358024692
+        },
+        {
+          "C": 10.0,
+          "auc": 0.9999691358024692
+        }
+      ]
+    }
+  },
+  "outputs": {
+    "evaluations": "/scratch/bbjr/skarmakar/conflict/analysis/probes/probe_evaluations.json",
+    "metadata": "/scratch/bbjr/skarmakar/conflict/analysis/probes/probe_metadata.json",
+    "model": "/scratch/bbjr/skarmakar/conflict/analysis/probes/probe_model.npz",
+    "scan": "/scratch/bbjr/skarmakar/conflict/analysis/probes/probe_scan.csv",
+    "scores": "/scratch/bbjr/skarmakar/conflict/analysis/probes/probe_scores.jsonl"
+  },
+  "packages": {
+    "numpy": "1.26.4",
+    "scikit-learn": "1.7.1",
+    "scipy": "1.15.3",
+    "torch": "2.10.0"
+  },
+  "script": "03_fit_awareness_probes.py",
+  "selection": {
+    "position": "assistant_start",
+    "rule": "maximize on validation the minimum of overall awareness AUC, AUC within relevant claims, AUC within false claims, and AUC within each answer-source policy; selection restricted to the preregistered position",
+    "scan_estimator": "training-only diagonal shrinkage LDA direction",
+    "scan_shrinkage": 0.1,
+    "selected_cell": {
+      "layer_index": 32,
+      "layer_offset": 32,
+      "position": "assistant_start",
+      "train_auc": 0.9934870793636812,
+      "train_auc_policy_context": 0.9970934073193289,
+      "train_auc_policy_neutral": 0.9927335182983221,
+      "train_auc_policy_parametric": 0.9887699828246796,
+      "train_auc_within_false": 0.9902673184480557,
+      "train_auc_within_relevant": 0.9902526386870422,
+      "train_robust_auc": 0.9887699828246796,
+      "validation_auc": 0.9920164609053498,
+      "validation_auc_policy_context": 1.0,
+      "validation_auc_policy_neutral": 0.9959259259259259,
+      "validation_auc_policy_parametric": 0.997037037037037,
+      "validation_auc_within_false": 0.978395061728395,
+      "validation_auc_within_relevant": 0.9977777777777779,
+      "validation_robust_auc": 0.978395061728395
+    },
+    "test_metrics_used_for_selection": false
+  },
+  "split_definition": {
+    "id_test": "country_capital/test/development",
+    "ood_relation": "element_symbol/*/development",
+    "ood_relation_paraphrase": "element_symbol/*/heldout_paraphrase",
+    "paraphrase_test": "country_capital/test/heldout_paraphrase",
+    "train": "country_capital/train/development",
+    "validation": "country_capital/validation/validation"
+  },
+  "split_summary": {
+    "class_counts": {
+      "id_test": {
+        "conflict": 84,
+        "nonconflict": 252
+      },
+      "ood_relation": {
+        "conflict": 354,
+        "nonconflict": 1062
+      },
+      "ood_relation_paraphrase": {
+        "conflict": 354,
+        "nonconflict": 1062
+      },
+      "paraphrase_test": {
+        "conflict": 84,
+        "nonconflict": 252
+      },
+      "train": {
+        "conflict": 261,
+        "nonconflict": 783
+      },
+      "validation": {
+        "conflict": 90,
+        "nonconflict": 270
+      }
+    },
+    "record_counts": {
+      "excluded": 4560,
+      "id_test": 336,
+      "ood_relation": 1416,
+      "ood_relation_paraphrase": 1416,
+      "paraphrase_test": 336,
+      "train": 1044,
+      "validation": 360
+    },
+    "unique_fact_counts": {
+      "id_test": 28,
+      "ood_relation": 118,
+      "ood_relation_paraphrase": 118,
+      "paraphrase_test": 28,
+      "train": 87,
+      "validation": 30
+    }
+  }
+}

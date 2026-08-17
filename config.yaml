@@ -1,0 +1,91 @@
+# Conflict-awareness experiment configuration.
+#
+# Required runtime:
+#   pip install "transformers==5.15.0" torch accelerate pyyaml
+#
+# The model revision pins the weights, tokenizer, generation config, and the
+# canonical Gemma 4 chat template used when this project was prepared.
+
+project:
+  seed: 20260816
+
+paths:
+  # Relative paths are resolved from this config file, not from the shell's cwd.
+  dataset_dir: conflict_awareness_dataset_v1
+  output_dir: results/gemma4_12b_conflict
+  hf_cache_dir: /scratch/bbjr/skarmakar/huggingface
+
+model:
+  id: google/gemma-4-12B-it
+  revision: 707f0a3b8a3c7ad586ed01e27eafbad8a27dd0f7
+  transformers_version: 5.15.0
+  dtype: bfloat16
+  device_map: auto
+  attention_implementation: sdpa
+  trust_remote_code: false
+  local_files_only: false
+
+chat:
+  # The dataset already contains the complete instruction. Adding a system
+  # message would be another experimental intervention, so none is added.
+  enable_thinking: false
+  add_generation_prompt: true
+  max_input_tokens: 2048
+
+generation:
+  # Greedy decoding is deliberate: screening and behavior labels should be
+  # deterministic. Sampling recommendations for general chat do not apply here.
+  do_sample: false
+  max_new_tokens: 16
+  use_cache: true
+
+screening:
+  batch_size: 4
+  scoring_batch_size: 8
+  results_file: screening_results.jsonl
+  eligible_facts_file: eligible_facts.jsonl
+  run_metadata_file: 01_screen_run.json
+  require_all_template_bundles: true
+  # A fact passes only if the best acceptable true answer beats every assigned
+  # false answer by more than this summed sequence-log-probability margin in
+  # each required prompt bundle.
+  min_true_minus_false_logprob: 0.0
+
+collection:
+  generation_batch_size: 4
+  scoring_batch_size: 8
+  activation_batch_size: 2
+  behavior_results_file: behavior_results.jsonl
+  run_metadata_file: 02_collect_run.json
+
+  # Only complete truth x relevance x policy groups whose query and paragraph
+  # facts both passed screening are collected.
+  require_complete_factorial_groups: true
+
+  activations:
+    enabled: true
+    # directory: activations
+    directory: /scratch/bbjr/skarmakar/conflict/activations
+    manifest_file: manifest.json
+    shard_size: 128
+    storage_dtype: float16
+
+    # Block indices are zero-based. "all" avoids selecting a layer using test
+    # data. For a cheaper pilot, replace it with a fixed list chosen in advance,
+    # e.g. [0, 4, 8, 12, 16, 20, 24, 28, 32, 36, 40, 44, 47].
+    layers: all
+
+    # assistant_start is the final non-padding token of the canonical templated
+    # prefix. Its logits predict the first answer token. The other positions are
+    # exact endpoints supplied by the dataset generator.
+    positions:
+      - claim_answer_end
+      - claim_end
+      - context_end
+      - query_subject_end
+      - question_end
+      - prompt_end
+      - assistant_start
+
+runtime:
+  report_every_batches: 10

@@ -1,0 +1,260 @@
+{
+  "id_test": {
+    "awareness_minus_factorized_roc_auc": 0.0,
+    "awareness_robust": {
+      "auc": 1.0,
+      "auc_policy_context": 1.0,
+      "auc_policy_neutral": 1.0,
+      "auc_policy_parametric": 1.0,
+      "auc_within_false": 1.0,
+      "auc_within_relevant": 1.0,
+      "robust_auc": 1.0
+    },
+    "factorized_baseline": {
+      "average_precision": 1.0,
+      "balanced_accuracy_at_0.5": 1.0,
+      "n": 336,
+      "positives": 84,
+      "roc_auc": 1.0
+    },
+    "selection_role": "held_out_evaluation",
+    "targets": {
+      "awareness": {
+        "average_precision": 1.0,
+        "balanced_accuracy_at_0.5": 0.998015873015873,
+        "n": 336,
+        "positives": 84,
+        "roc_auc": 1.0
+      },
+      "falsehood": {
+        "average_precision": 0.9995464218156593,
+        "balanced_accuracy_at_0.5": 0.9880952380952381,
+        "n": 336,
+        "positives": 168,
+        "roc_auc": 0.9995393990929705
+      },
+      "relevance": {
+        "average_precision": 1.0,
+        "balanced_accuracy_at_0.5": 1.0,
+        "n": 336,
+        "positives": 168,
+        "roc_auc": 1.0
+      }
+    }
+  },
+  "ood_relation": {
+    "awareness_minus_factorized_roc_auc": 0.013626884569142517,
+    "awareness_robust": {
+      "auc": 0.9849713258216561,
+      "auc_policy_context": 0.9805850809154457,
+      "auc_policy_neutral": 0.9844153978741741,
+      "auc_policy_parametric": 0.9973666570908742,
+      "auc_within_false": 0.9673545277538382,
+      "auc_within_relevant": 0.9885569280857991,
+      "robust_auc": 0.9673545277538382
+    },
+    "factorized_baseline": {
+      "average_precision": 0.9343490189255014,
+      "balanced_accuracy_at_0.5": 0.8239171374764596,
+      "n": 1416,
+      "positives": 354,
+      "roc_auc": 0.9713444412525136
+    },
+    "selection_role": "held_out_evaluation",
+    "targets": {
+      "awareness": {
+        "average_precision": 0.9645463709422899,
+        "balanced_accuracy_at_0.5": 0.9077212806026365,
+        "n": 1416,
+        "positives": 354,
+        "roc_auc": 0.9849713258216561
+      },
+      "falsehood": {
+        "average_precision": 0.9679207449296183,
+        "balanced_accuracy_at_0.5": 0.7704802259887006,
+        "n": 1416,
+        "positives": 708,
+        "roc_auc": 0.9590934118548309
+      },
+      "relevance": {
+        "average_precision": 1.0,
+        "balanced_accuracy_at_0.5": 0.9950564971751412,
+        "n": 1416,
+        "positives": 708,
+        "roc_auc": 1.0
+      }
+    }
+  },
+  "ood_relation_paraphrase": {
+    "awareness_minus_factorized_roc_auc": 0.0052533861065890974,
+    "awareness_robust": {
+      "auc": 0.9783986083181716,
+      "auc_policy_context": 0.9590156085416068,
+      "auc_policy_neutral": 0.9954993775734943,
+      "auc_policy_parametric": 0.9985157521784929,
+      "auc_within_false": 0.9502457786715184,
+      "auc_within_relevant": 0.995563216189473,
+      "robust_auc": 0.9502457786715184
+    },
+    "factorized_baseline": {
+      "average_precision": 0.9306447408996193,
+      "balanced_accuracy_at_0.5": 0.7980225988700564,
+      "n": 1416,
+      "positives": 354,
+      "roc_auc": 0.9731452222115825
+    },
+    "selection_role": "held_out_evaluation",
+    "targets": {
+      "awareness": {
+        "average_precision": 0.9479385139517024,
+        "balanced_accuracy_at_0.5": 0.9058380414312618,
+        "n": 1416,
+        "positives": 354,
+        "roc_auc": 0.9783986083181716
+      },
+      "falsehood": {
+        "average_precision": 0.9683270531943575,
+        "balanced_accuracy_at_0.5": 0.7245762711864407,
+        "n": 1416,
+        "positives": 708,
+        "roc_auc": 0.9643680775000797
+      },
+      "relevance": {
+        "average_precision": 0.9999610914831515,
+        "balanced_accuracy_at_0.5": 0.9858757062146892,
+        "n": 1416,
+        "positives": 708,
+        "roc_auc": 0.9999601008650132
+      }
+    }
+  },
+  "paraphrase_test": {
+    "awareness_minus_factorized_roc_auc": -0.0013699924414211084,
+    "awareness_robust": {
+      "auc": 0.9978741496598639,
+      "auc_policy_context": 0.9936224489795918,
+      "auc_policy_neutral": 0.9995748299319729,
+      "auc_policy_parametric": 0.9982993197278912,
+      "auc_within_false": 0.9953231292517006,
+      "auc_within_relevant": 0.9982993197278911,
+      "robust_auc": 0.9936224489795918
+    },
+    "factorized_baseline": {
+      "average_precision": 0.9976810563843078,
+      "balanced_accuracy_at_0.5": 0.9880952380952381,
+      "n": 336,
+      "positives": 84,
+      "roc_auc": 0.999244142101285
+    },
+    "selection_role": "held_out_evaluation",
+    "targets": {
+      "awareness": {
+        "average_precision": 0.9940252807893656,
+        "balanced_accuracy_at_0.5": 0.9642857142857142,
+        "n": 336,
+        "positives": 84,
+        "roc_auc": 0.9978741496598639
+      },
+      "falsehood": {
+        "average_precision": 0.9954691064196135,
+        "balanced_accuracy_at_0.5": 0.8690476190476191,
+        "n": 336,
+        "positives": 168,
+        "roc_auc": 0.9946853741496599
+      },
+      "relevance": {
+        "average_precision": 1.0,
+        "balanced_accuracy_at_0.5": 0.9970238095238095,
+        "n": 336,
+        "positives": 168,
+        "roc_auc": 1.0
+      }
+    }
+  },
+  "train": {
+    "awareness_minus_factorized_roc_auc": -0.0004648590987604839,
+    "awareness_robust": {
+      "auc": 0.9993198377397082,
+      "auc_policy_context": 0.9996476857356762,
+      "auc_policy_neutral": 0.9994274893204739,
+      "auc_policy_parametric": 0.9982384286783811,
+      "auc_within_false": 0.9997357643017571,
+      "auc_within_relevant": 0.9982237489173676,
+      "robust_auc": 0.9982237489173676
+    },
+    "factorized_baseline": {
+      "average_precision": 0.9993718580862447,
+      "balanced_accuracy_at_0.5": 0.9840357598978289,
+      "n": 1044,
+      "positives": 261,
+      "roc_auc": 0.9997846968384687
+    },
+    "selection_role": "fit",
+    "targets": {
+      "awareness": {
+        "average_precision": 0.9979850633017171,
+        "balanced_accuracy_at_0.5": 0.9808429118773947,
+        "n": 1044,
+        "positives": 261,
+        "roc_auc": 0.9993198377397082
+      },
+      "falsehood": {
+        "average_precision": 0.9992756466207615,
+        "balanced_accuracy_at_0.5": 0.9846743295019157,
+        "n": 1044,
+        "positives": 522,
+        "roc_auc": 0.9992256426065383
+      },
+      "relevance": {
+        "average_precision": 0.9999999999999999,
+        "balanced_accuracy_at_0.5": 1.0,
+        "n": 1044,
+        "positives": 522,
+        "roc_auc": 1.0
+      }
+    }
+  },
+  "validation": {
+    "awareness_minus_factorized_roc_auc": 0.0006172839506172201,
+    "awareness_robust": {
+      "auc": 0.9986831275720164,
+      "auc_policy_context": 1.0,
+      "auc_policy_neutral": 0.9996296296296296,
+      "auc_policy_parametric": 0.9996296296296296,
+      "auc_within_false": 0.9964197530864197,
+      "auc_within_relevant": 0.9996296296296296,
+      "robust_auc": 0.9964197530864197
+    },
+    "factorized_baseline": {
+      "average_precision": 0.9959825312667842,
+      "balanced_accuracy_at_0.5": 0.9833333333333334,
+      "n": 360,
+      "positives": 90,
+      "roc_auc": 0.9980658436213992
+    },
+    "selection_role": "model_selection",
+    "targets": {
+      "awareness": {
+        "average_precision": 0.996151932427544,
+        "balanced_accuracy_at_0.5": 0.9759259259259259,
+        "n": 360,
+        "positives": 90,
+        "roc_auc": 0.9986831275720164
+      },
+      "falsehood": {
+        "average_precision": 0.991513523713998,
+        "balanced_accuracy_at_0.5": 0.9333333333333333,
+        "n": 360,
+        "positives": 180,
+        "roc_auc": 0.9908950617283949
+      },
+      "relevance": {
+        "average_precision": 0.9999693063228975,
+        "balanced_accuracy_at_0.5": 0.9916666666666667,
+        "n": 360,
+        "positives": 180,
+        "roc_auc": 0.9999691358024692
+      }
+    }
+  }
+}

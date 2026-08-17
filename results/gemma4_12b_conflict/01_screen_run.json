@@ -1,0 +1,94 @@
+{
+  "chat": {
+    "add_generation_prompt": true,
+    "bos_token_id": 2,
+    "chat_template_sha256": "ae53464bf3be25802b3a5b37def7fd89667067d7577049b3b2d74c4d8de4c6d4",
+    "enable_thinking": false,
+    "generation_eos_token_ids": [
+      1,
+      50,
+      106
+    ],
+    "pad_token_id": 0,
+    "padding_side": "left",
+    "tokenizer_eos_token_id": 1
+  },
+  "code_version": "1.0.0",
+  "config_sha256": "3140fdf444d2a90ddff86a3826f21b0f45bf94b96618daa3817d4eb9d9433b9e",
+  "counts": {
+    "by_relation": {
+      "country_capital": 153,
+      "element_symbol": 118
+    },
+    "eligible_by_relation": {
+      "country_capital": 149,
+      "element_symbol": 118
+    },
+    "eligible_total": 267,
+    "fact_count": 271,
+    "screening_count": 813,
+    "template_bundles": [
+      "development",
+      "heldout_paraphrase",
+      "validation"
+    ]
+  },
+  "criteria": {
+    "generation": "greedy",
+    "min_true_minus_false_logprob": 0.0,
+    "require_all_template_bundles": true,
+    "sequence_score": "sum of answer-token log-probabilities; EOS excluded"
+  },
+  "datasets": {
+    "facts.jsonl": {
+      "path": "/u/skarmakar1/ideas/mats/conflict_awareness_dataset_v1/facts.jsonl",
+      "sha256": "8dd17d3a6cd1eb2e763d03c55ac677982ffff37223d1e47555d33646b5fc7faf"
+    },
+    "manifest.json": {
+      "path": "/u/skarmakar1/ideas/mats/conflict_awareness_dataset_v1/manifest.json",
+      "sha256": "fb5059443b9938deae81914353209b26a973f039a2c7397349670ede5eca5712"
+    },
+    "screening.jsonl": {
+      "path": "/u/skarmakar1/ideas/mats/conflict_awareness_dataset_v1/screening.jsonl",
+      "sha256": "2aac25ce694c2ff209a403b89fc5a82bfe2d2a3f591cbe672c25208f4409371d"
+    }
+  },
+  "elapsed_seconds": 130.1557161808014,
+  "hardware": {
+    "cuda_available": true,
+    "cuda_version": "12.8",
+    "gpu_names": [
+      "NVIDIA A100-SXM4-40GB"
+    ]
+  },
+  "model": {
+    "attention_implementation": "sdpa",
+    "class": "Gemma4UnifiedForConditionalGeneration",
+    "device_map": null,
+    "dtype": "torch.bfloat16",
+    "hidden_size": 3840,
+    "id": "google/gemma-4-12B-it",
+    "loaded_commit_hash": "707f0a3b8a3c7ad586ed01e27eafbad8a27dd0f7",
+    "num_hidden_layers": 48,
+    "processor_class": "Gemma4UnifiedProcessor",
+    "requested_revision": "707f0a3b8a3c7ad586ed01e27eafbad8a27dd0f7",
+    "tokenizer_class": "GemmaTokenizer"
+  },
+  "outputs": {
+    "eligible_facts": "/scratch/bbjr/skarmakar/conflict/eligible_facts.jsonl",
+    "screening_results": "/scratch/bbjr/skarmakar/conflict/screening_results.jsonl"
+  },
+  "packages": {
+    "accelerate": "1.10.1",
+    "python": "3.10.18",
+    "tokenizers": "0.22.2",
+    "torch": "2.10.0+cu128",
+    "transformers": "5.15.0"
+  },
+  "preflight": {
+    "generated_answer": "Paris",
+    "sample_id": "screen-11187f439cb3f294",
+    "true_minus_false_logprob_margin": 39.80067253112793
+  },
+  "script": "01_screen_knowledge.py"
+}
